@@ -14,7 +14,7 @@ class Lecture02Concentration {
     
     var IndexOfOneAndOnlyFaceUpCard: Int?
     
-    func chooseCard(in index: Int) {
+    func chooseCard(at index: Int) {
         if !cards[index].isMatched {
             if let intexTomatch = IndexOfOneAndOnlyFaceUpCard, intexTomatch != index {
                 cards[index].isFaceUp = true

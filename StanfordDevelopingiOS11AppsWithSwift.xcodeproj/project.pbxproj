@@ -56,6 +56,7 @@
 		DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03ViewController.swift; sourceTree = "<group>"; };
 		DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Card.swift; sourceTree = "<group>"; };
 		DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Concentration.swift; sourceTree = "<group>"; };
+		DD78DDBF22291756008436C3 /* Lecture03.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture03.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +151,7 @@
 		DD78DDB422290A50008436C3 /* Lecture03 */ = {
 			isa = PBXGroup;
 			children = (
+				DD78DDBF22291756008436C3 /* Lecture03.md */,
 				DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */,
 				DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */,
 				DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */,

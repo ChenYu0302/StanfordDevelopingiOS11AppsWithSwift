@@ -10,15 +10,34 @@ import Foundation
 
 class Lecture03Concentration {
     
-    var cards:[Lecture03Card] = []
+    private(set) var cards:[Lecture03Card] = []
     
-    var IndexOfOneAndOnlyFaceUpCard: Int?
+    private var IndexOfOneAndOnlyFaceUpCard: Int?{
+        get {
+            var foundIndex:Int?
+            for index in cards.indices {
+                if cards[index].isFaceUp {
+                    if foundIndex == nil{
+                        foundIndex = index // 一张卡朝上
+                    }else {
+                        return nil // 两张卡朝上
+                    }
+                }
+            }
+            return foundIndex
+        }
+        set {
+            for index in cards.indices {
+                cards[index].isFaceUp = (index == newValue)
+            }
+        }
+    }
     
-    func chooseCard(in index: Int) {
+    func chooseCard(at index: Int) {
+        assert(cards.indices.contains(index), "Lecture03Concentration.chooseCard(at: \(index): chosen index is not in the cards")
         if !cards[index].isMatched {
             if let intexTomatch = IndexOfOneAndOnlyFaceUpCard, intexTomatch != index {
                 cards[index].isFaceUp = true
-                self.IndexOfOneAndOnlyFaceUpCard = nil
                 if cards[index].identifier == cards[intexTomatch].identifier {
                     cards[index].isMatched = true
                     cards[intexTomatch].isMatched = true
@@ -27,16 +46,13 @@ class Lecture03Concentration {
                     cards[intexTomatch].isMatched = false
                 }
             } else {
-                for flipDownIndex in cards.indices{
-                    cards[flipDownIndex].isFaceUp = false
-                }
-                cards[index].isFaceUp = true
                 IndexOfOneAndOnlyFaceUpCard = index
             }
         }
     }
     
     init(numberOfPairsOfCards: Int) {
+        assert(numberOfPairsOfCards > 0, "Lecture03Concentration.init(numberOfPairsOfCards: \(numberOfPairsOfCards): you must have at least one pair of cards")
         for _ in 0..<numberOfPairsOfCards {
             let card = Lecture03Card()
             cards += [card,card]
