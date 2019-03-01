@@ -30,7 +30,7 @@ class Lecture03ViewController: UIViewController {
         if let cardNumber = cardButtons.firstIndex(of: sender)
         {
             print("chosen card number = \(cardNumber) ")
-            game.chooseCard(in: cardNumber)
+            game.chooseCard(at: cardNumber)
             updateViewFromModel()
         }else{
             print("chosen card was not in cardButtons")
