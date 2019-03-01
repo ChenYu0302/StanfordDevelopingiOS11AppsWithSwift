@@ -28,6 +28,7 @@
 		DD78DDBA22290E81008436C3 /* Lecture03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */; };
 		DD78DDBC22290E8D008436C3 /* Lecture03Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */; };
 		DD78DDBE22290EA1008436C3 /* Lecture03Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */; };
+		DD78DDC122292790008436C3 /* Lecture 3 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Card.swift; sourceTree = "<group>"; };
 		DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Concentration.swift; sourceTree = "<group>"; };
 		DD78DDBF22291756008436C3 /* Lecture03.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture03.md; sourceTree = "<group>"; };
+		DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 3 Slides.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				DD78DDBF22291756008436C3 /* Lecture03.md */,
+				DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */,
 				DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */,
 				DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */,
 				DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2A2A3F2227C54E00EB5522 /* Lecture02Main.storyboard in Resources */,
+				DD78DDC122292790008436C3 /* Lecture 3 Slides.pdf in Resources */,
 				DD2A2A5322282DFC00EB5522 /* Programming Project 1_ Concentration.pdf in Resources */,
 				DD773B4B222698D900B86763 /* Lecture17Main.storyboard in Resources */,
 				DD773B3D22267E4B00B86763 /* LaunchScreen.storyboard in Resources */,
