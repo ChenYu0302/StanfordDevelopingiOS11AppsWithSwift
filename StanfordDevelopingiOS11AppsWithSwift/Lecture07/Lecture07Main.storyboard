@@ -68,7 +68,6 @@
         <!--Lecture07 Concentration View Controller-->
         <scene sceneID="LaK-Yz-n6U">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YIu-3M-TmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ETy-tx-ffK" customClass="Lecture07ConcentrationViewController" customModule="StanfordDevelopingiOS11AppsWithSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gb7-CT-Ry3">
                         <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
@@ -224,6 +223,7 @@
                         <outletCollection property="cardButtons" destination="U8o-fs-y3g" collectionClass="NSMutableArray" id="Ze2-xC-RBo"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIu-3M-TmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1371" y="1497"/>
         </scene>
@@ -276,7 +276,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Lf7-Y3-TyA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N9H-Ip-Nbk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="dHp-nq-rch" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VEe-3v-eP9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -288,6 +287,7 @@
                         <segue destination="2O9-FL-nWd" kind="relationship" relationship="viewControllers" id="Of1-Dj-dWK"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N9H-Ip-Nbk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3110" y="1390"/>
         </scene>

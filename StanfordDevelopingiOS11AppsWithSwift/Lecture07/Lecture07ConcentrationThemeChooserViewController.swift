@@ -8,8 +8,12 @@
 
 import UIKit
 
-class Lecture07ConcentrationThemeChooserViewController: UIViewController, UISplitViewControllerDelegate {
+class Lecture07ConcentrationThemeChooserViewController: Lecture09VCLViewController, UISplitViewControllerDelegate {
 
+    override var vclLoggingName: String {
+        return "Theme Chooser"
+    }
+    
     let themes = [
         "Sports":"⚽️🏀🏓🏐🏸🎾⛷🎱🏈🏉🏒🏏",
         "Faces":"😀😁🤣😂😄😅😆😇😉😊🙂🙃",
@@ -17,6 +21,7 @@ class Lecture07ConcentrationThemeChooserViewController: UIViewController, UISpli
     ]
     
     override func awakeFromNib() {
+        super.awakeFromNib()
         splitViewController?.delegate = self
     }
     
@@ -34,6 +39,8 @@ class Lecture07ConcentrationThemeChooserViewController: UIViewController, UISpli
     }
     
     @IBAction func changeTheme(_ sender: Any) {
+        /*
+        // 以下代码功能：选择主题后，不会创建新游戏
         if let cvc = splitViewDetailConcentrationController {
             if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
                 cvc.theme = theme
@@ -45,7 +52,10 @@ class Lecture07ConcentrationThemeChooserViewController: UIViewController, UISpli
             navigationController?.pushViewController(cvc, animated: true)
         } else {
             performSegue(withIdentifier: "Choose Theme", sender: sender)
-        }
+        }*/
+        
+        // 以下代码功能：选择主题后，每次都会创建新游戏
+        performSegue(withIdentifier: "Choose Theme", sender: sender)
     }
     
     private var splitViewDetailConcentrationController:Lecture07ConcentrationViewController? {
