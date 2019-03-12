@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD2A2A3E2227C54E00EB5522 /* Lecture02.md in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A3B2227C54E00EB5522 /* Lecture02.md */; };
+		DD2A2A3E2227C54E00EB5522 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A3B2227C54E00EB5522 /* README.md */; };
 		DD2A2A3F2227C54E00EB5522 /* Lecture02Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */; };
 		DD2A2A402227C54E00EB5522 /* Lecture02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */; };
 		DD2A2A422227C58200EB5522 /* Lecture02Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */; };
@@ -30,7 +30,7 @@
 		DD46ABC522351250009DD24A /* Lecture07Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC422351250009DD24A /* Lecture07Concentration.swift */; };
 		DD46ABC7223512A0009DD24A /* Lecture07Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC6223512A0009DD24A /* Lecture07Card.swift */; };
 		DD46ABC922351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC822351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift */; };
-		DD46ABCB22357721009DD24A /* Lecture08Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46ABCA22357721009DD24A /* Lecture08Main.storyboard */; };
+		DD46ABCB22357721009DD24A /* Lecture08Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */; };
 		DD46ABCE22357769009DD24A /* Lecture08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */; };
 		DD46ABD0223577CD009DD24A /* Lecture08PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */; };
 		DD46ABD2223577F3009DD24A /* Lecture08PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */; };
@@ -40,19 +40,27 @@
 		DD4C7A2F2232D0A100AD2061 /* Lecture 12 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4C7A2C2232D0A100AD2061 /* Lecture 12 Slides.pdf */; };
 		DD50B116222FBA1C00F01BEE /* Lecture 5 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD50B115222FBA1C00F01BEE /* Lecture 5 Slides.pdf */; };
 		DD50B11A222FBB7800F01BEE /* Lecture 6 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD50B119222FBB7800F01BEE /* Lecture 6 Slides.pdf */; };
-		DD59C21522333A0A006BB574 /* Lecture07Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59C21422333A0A006BB574 /* Lecture07Main.storyboard */; };
+		DD59C21522333A0A006BB574 /* Lecture07MultipleMVCs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59C21422333A0A006BB574 /* Lecture07MultipleMVCs.storyboard */; };
 		DD5D64EA2235EC230018EEBD /* Lecture09VCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */; };
 		DD5D64EC2235F16A0018EEBD /* Lecture09ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */; };
-		DD5D64EE2235F1870018EEBD /* Lecture09Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64ED2235F1870018EEBD /* Lecture09Main.storyboard */; };
+		DD5D64EE2235F1870018EEBD /* Lecture09ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */; };
 		DD5D64F02235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */; };
 		DD5D64F22235F36B0018EEBD /* Lecture10ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */; };
 		DD5D64F42235F9D10018EEBD /* Lecture09DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */; };
 		DD5D64F62235FF850018EEBD /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64F52235FF850018EEBD /* oval.jpg */; };
 		DD5D64F922363FF00018EEBD /* Lecture10CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */; };
 		DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */; };
-		DD5D64FD22365BDE0018EEBD /* UIViewController+Ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64FC22365BDE0018EEBD /* UIViewController+Ds.swift */; };
 		DD5D64FF22365BF70018EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64FE22365BF70018EEBD /* Main.storyboard */; };
-		DD5D650222365E220018EEBD /* Lecture10AutolayoutMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D650122365E220018EEBD /* Lecture10AutolayoutMain.storyboard */; };
+		DD5D650222365E220018EEBD /* Lecture10Autolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */; };
+		DD64025022375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */; };
+		DD64025222375B5E0031E20C /* Lecture09ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */; };
+		DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025322375B720031E20C /* Lecture09Concentration.swift */; };
+		DD64025622375B7D0031E20C /* Lecture09Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025522375B7D0031E20C /* Lecture09Card.swift */; };
+		DD64025822375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */; };
+		DD64025F2237802E0031E20C /* Lecture11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64025E2237802E0031E20C /* Lecture11.storyboard */; };
+		DD6402612237866C0031E20C /* Lecture11EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6402602237866C0031E20C /* Lecture11EmojiArtViewController.swift */; };
+		DD640263223787A50031E20C /* Lecture11EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD640262223787A50031E20C /* Lecture11EmojiArtView.swift */; };
+		DD64026522378C880031E20C /* Lecture11Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64026422378C880031E20C /* Lecture11Utility.swift */; };
 		DD6AA0F32230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0F02230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf */; };
 		DD6AA0F42230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0F12230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf */; };
 		DD6AA0F52230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0F22230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf */; };
@@ -83,10 +91,14 @@
 		DD78DDCC22292E15008436C3 /* Lecture04Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDCB22292E15008436C3 /* Lecture04Concentration.swift */; };
 		DD78DDCE22292E42008436C3 /* Lecture 4 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDCD22292E42008436C3 /* Lecture 4 Slides.pdf */; };
 		DD78DDD022295792008436C3 /* Lecture04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDCF22295792008436C3 /* Lecture04ViewController.swift */; };
+		DD8C509C2237579400F1B56B /* Lecture10ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */; };
+		DD8C509E223757A900F1B56B /* Lecture10Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */; };
+		DD8C50A0223757C500F1B56B /* Lecture10Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509F223757C500F1B56B /* Lecture10Card.swift */; };
+		DD8C50A2223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD2A2A3B2227C54E00EB5522 /* Lecture02.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Lecture02.md; sourceTree = "<group>"; };
+		DD2A2A3B2227C54E00EB5522 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lecture02Main.storyboard; sourceTree = "<group>"; };
 		DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture02ViewController.swift; sourceTree = "<group>"; };
 		DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture02Concentration.swift; sourceTree = "<group>"; };
@@ -104,15 +116,15 @@
 		DD2AAEEC223235680031ED8B /* Lecture06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture06ViewController.swift; sourceTree = "<group>"; };
 		DD2AAEEE2232357C0031ED8B /* Lecture06PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture06PlayingCardDeck.swift; sourceTree = "<group>"; };
 		DD2AAEF0223235880031ED8B /* Lecture06PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture06PlayingCard.swift; sourceTree = "<group>"; };
-		DD2AAEF2223235CA0031ED8B /* Lecture06PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lecture06PlayingCardView.swift; path = StanfordDevelopingiOS11AppsWithSwift/Lecture06/Lecture06PlayingCardView.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DD2AAEF42232361B0031ED8B /* Lecture06.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture06.md; sourceTree = "<group>"; };
+		DD2AAEF2223235CA0031ED8B /* Lecture06PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture06PlayingCardView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DD2AAEF42232361B0031ED8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD46ABC1223507B3009DD24A /* Lecture07ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture07ConcentrationViewController.swift; sourceTree = "<group>"; };
-		DD46ABC3223507FB009DD24A /* Lecture07.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture07.md; sourceTree = "<group>"; };
+		DD46ABC3223507FB009DD24A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD46ABC422351250009DD24A /* Lecture07Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture07Concentration.swift; sourceTree = "<group>"; };
 		DD46ABC6223512A0009DD24A /* Lecture07Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture07Card.swift; sourceTree = "<group>"; };
 		DD46ABC822351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture07ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
-		DD46ABCA22357721009DD24A /* Lecture08Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture08Main.storyboard; sourceTree = "<group>"; };
-		DD46ABCC22357739009DD24A /* Lecture08.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture08.md; sourceTree = "<group>"; };
+		DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture08Animation.storyboard; sourceTree = "<group>"; };
+		DD46ABCC22357739009DD24A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08ViewController.swift; sourceTree = "<group>"; };
 		DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08PlayingCardView.swift; sourceTree = "<group>"; };
 		DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08PlayingCard.swift; sourceTree = "<group>"; };
@@ -122,23 +134,33 @@
 		DD4C7A2B2232D0A100AD2061 /* Lecture 13 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 13 Slides.pdf"; sourceTree = "<group>"; };
 		DD4C7A2C2232D0A100AD2061 /* Lecture 12 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 12 Slides.pdf"; sourceTree = "<group>"; };
 		DD50B115222FBA1C00F01BEE /* Lecture 5 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 5 Slides.pdf"; sourceTree = "<group>"; };
-		DD50B117222FBA3100F01BEE /* Lecture05.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture05.md; sourceTree = "<group>"; };
+		DD50B117222FBA3100F01BEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD50B119222FBB7800F01BEE /* Lecture 6 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 6 Slides.pdf"; sourceTree = "<group>"; };
-		DD59C21422333A0A006BB574 /* Lecture07Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture07Main.storyboard; sourceTree = "<group>"; };
-		DD5D64E82235E85F0018EEBD /* Lecture09.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture09.md; sourceTree = "<group>"; };
+		DD59C21422333A0A006BB574 /* Lecture07MultipleMVCs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture07MultipleMVCs.storyboard; sourceTree = "<group>"; };
+		DD5D64E82235E85F0018EEBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09VCLViewController.swift; sourceTree = "<group>"; };
 		DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ImageViewController.swift; sourceTree = "<group>"; };
-		DD5D64ED2235F1870018EEBD /* Lecture09Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture09Main.storyboard; sourceTree = "<group>"; };
+		DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture09ScrollView.storyboard; sourceTree = "<group>"; };
 		DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture10MultithreadingMain.storyboard; sourceTree = "<group>"; };
 		DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ImageViewController.swift; sourceTree = "<group>"; };
 		DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09DemoURL.swift; sourceTree = "<group>"; };
 		DD5D64F52235FF850018EEBD /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
-		DD5D64F722363C240018EEBD /* Lecture10.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture10.md; sourceTree = "<group>"; };
+		DD5D64F722363C240018EEBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10CassiniViewController.swift; sourceTree = "<group>"; };
 		DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10DemoURLs.swift; sourceTree = "<group>"; };
-		DD5D64FC22365BDE0018EEBD /* UIViewController+Ds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ds.swift"; sourceTree = "<group>"; };
 		DD5D64FE22365BF70018EEBD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DD5D650122365E220018EEBD /* Lecture10AutolayoutMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture10AutolayoutMain.storyboard; sourceTree = "<group>"; };
+		DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture10Autolayout.storyboard; sourceTree = "<group>"; };
+		DD64024E22375B120031E20C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
+		DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ConcentrationViewController.swift; sourceTree = "<group>"; };
+		DD64025322375B720031E20C /* Lecture09Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09Concentration.swift; sourceTree = "<group>"; };
+		DD64025522375B7D0031E20C /* Lecture09Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09Card.swift; sourceTree = "<group>"; };
+		DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture09ViewControllerLifecycle.storyboard; sourceTree = "<group>"; };
+		DD64025D22375D9B0031E20C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD64025E2237802E0031E20C /* Lecture11.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture11.storyboard; sourceTree = "<group>"; };
+		DD6402602237866C0031E20C /* Lecture11EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture11EmojiArtViewController.swift; sourceTree = "<group>"; };
+		DD640262223787A50031E20C /* Lecture11EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture11EmojiArtView.swift; sourceTree = "<group>"; };
+		DD64026422378C880031E20C /* Lecture11Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture11Utility.swift; sourceTree = "<group>"; };
 		DD6AA0F02230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 3_ Finishing Off Swift.pdf"; sourceTree = "<group>"; };
 		DD6AA0F12230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 1_ Intro to Swift.pdf"; sourceTree = "<group>"; };
 		DD6AA0F22230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 2_ Intro to Swift.pdf"; sourceTree = "<group>"; };
@@ -155,7 +177,7 @@
 		DD773B3922267E4B00B86763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD773B3C22267E4B00B86763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD773B3E22267E4B00B86763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD773B4422267E7D00B86763 /* Lecture01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture01.md; sourceTree = "<group>"; };
+		DD773B4422267E7D00B86763 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD773B4522267E8400B86763 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD773B46222680C100B86763 /* Lecture17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture17ViewController.swift; sourceTree = "<group>"; };
 		DD773B4A222698D900B86763 /* Lecture17Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture17Main.storyboard; sourceTree = "<group>"; };
@@ -165,16 +187,21 @@
 		DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03ViewController.swift; sourceTree = "<group>"; };
 		DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Card.swift; sourceTree = "<group>"; };
 		DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Concentration.swift; sourceTree = "<group>"; };
-		DD78DDBF22291756008436C3 /* Lecture03.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture03.md; sourceTree = "<group>"; };
+		DD78DDBF22291756008436C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 3 Slides.pdf"; sourceTree = "<group>"; };
 		DD78DDC222292B4F008436C3 /* Lecture 2 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 2 Slides.pdf"; sourceTree = "<group>"; };
 		DD78DDC422292B67008436C3 /* Lecture 1 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 1 Slides.pdf"; sourceTree = "<group>"; };
-		DD78DDC622292DDB008436C3 /* Lecture04.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture04.md; sourceTree = "<group>"; };
+		DD78DDC622292DDB008436C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD78DDC722292DF7008436C3 /* Lecture04Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture04Main.storyboard; sourceTree = "<group>"; };
 		DD78DDC922292E06008436C3 /* Lecture04Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture04Card.swift; sourceTree = "<group>"; };
 		DD78DDCB22292E15008436C3 /* Lecture04Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture04Concentration.swift; sourceTree = "<group>"; };
 		DD78DDCD22292E42008436C3 /* Lecture 4 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 4 Slides.pdf"; sourceTree = "<group>"; };
 		DD78DDCF22295792008436C3 /* Lecture04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture04ViewController.swift; sourceTree = "<group>"; };
+		DD8C509922373F3D00F1B56B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ConcentrationViewController.swift; sourceTree = "<group>"; };
+		DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10Concentration.swift; sourceTree = "<group>"; };
+		DD8C509F223757C500F1B56B /* Lecture10Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10Card.swift; sourceTree = "<group>"; };
+		DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,8 +218,8 @@
 		DD2A2A3A2227C54E00EB5522 /* Lecture02 */ = {
 			isa = PBXGroup;
 			children = (
+				DD2A2A3B2227C54E00EB5522 /* README.md */,
 				DD78DDC222292B4F008436C3 /* Lecture 2 Slides.pdf */,
-				DD2A2A3B2227C54E00EB5522 /* Lecture02.md */,
 				DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */,
 				DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */,
 				DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */,
@@ -204,6 +231,7 @@
 		DD2A2A49222825A200EB5522 /* Assignment01 */ = {
 			isa = PBXGroup;
 			children = (
+				DD64025D22375D9B0031E20C /* README.md */,
 				DD2A2A5222282DFC00EB5522 /* Programming Project 1_ Concentration.pdf */,
 				DD2A2A4A222825DC00EB5522 /* Assignment01Main.storyboard */,
 				DD2A2A50222826A600EB5522 /* Assignment01ViewController.swift */,
@@ -213,53 +241,51 @@
 			path = Assignment01;
 			sourceTree = "<group>";
 		};
-		DD4C7A202232C85C00AD2061 /* Lecture07 */ = {
+		DD4C7A202232C85C00AD2061 /* Lecture07MultipleMVCs */ = {
 			isa = PBXGroup;
 			children = (
+				DD46ABC3223507FB009DD24A /* README.md */,
 				DD6AA0F82230DD6900155EA4 /* Lecture 7 Slides.pdf */,
-				DD46ABC3223507FB009DD24A /* Lecture07.md */,
-				DD59C21422333A0A006BB574 /* Lecture07Main.storyboard */,
+				DD59C21422333A0A006BB574 /* Lecture07MultipleMVCs.storyboard */,
 				DD46ABC822351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift */,
 				DD46ABC1223507B3009DD24A /* Lecture07ConcentrationViewController.swift */,
 				DD46ABC422351250009DD24A /* Lecture07Concentration.swift */,
 				DD46ABC6223512A0009DD24A /* Lecture07Card.swift */,
-				DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */,
 			);
-			path = Lecture07;
+			path = Lecture07MultipleMVCs;
 			sourceTree = "<group>";
 		};
-		DD4C7A212232CA0B00AD2061 /* Lecture08 */ = {
+		DD4C7A212232CA0B00AD2061 /* Lecture08Animation */ = {
 			isa = PBXGroup;
 			children = (
+				DD46ABCC22357739009DD24A /* README.md */,
 				DD6AA0FB2230DD6A00155EA4 /* Lecture 8 Slides.pdf */,
-				DD46ABCC22357739009DD24A /* Lecture08.md */,
-				DD46ABCA22357721009DD24A /* Lecture08Main.storyboard */,
+				DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */,
 				DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */,
 				DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */,
 				DD46ABD322357805009DD24A /* Lecture08PlayingCardDeck.swift */,
 				DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */,
 			);
-			path = Lecture08;
+			path = Lecture08Animation;
 			sourceTree = "<group>";
 		};
-		DD4C7A222232CA1C00AD2061 /* Lecture09 */ = {
+		DD4C7A222232CA1C00AD2061 /* Lecture09ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				DD6AA0F62230DD6800155EA4 /* Lecture 9 Slides.pdf */,
-				DD5D64E82235E85F0018EEBD /* Lecture09.md */,
-				DD5D64ED2235F1870018EEBD /* Lecture09Main.storyboard */,
+				DD5D64E82235E85F0018EEBD /* README.md */,
+				DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */,
 				DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */,
 				DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */,
 				DD5D64F52235FF850018EEBD /* oval.jpg */,
 			);
-			path = Lecture09;
+			path = Lecture09ScrollView;
 			sourceTree = "<group>";
 		};
 		DD4C7A232232CA2000AD2061 /* Lecture10Multithreading */ = {
 			isa = PBXGroup;
 			children = (
+				DD5D64F722363C240018EEBD /* README.md */,
 				DD6AA0F92230DD6900155EA4 /* Lecture 10 Slides.pdf */,
-				DD5D64F722363C240018EEBD /* Lecture10.md */,
 				DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */,
 				DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */,
 				DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */,
@@ -268,12 +294,17 @@
 			path = Lecture10Multithreading;
 			sourceTree = "<group>";
 		};
-		DD4C7A242232CA6600AD2061 /* Lecture11 */ = {
+		DD4C7A242232CA6600AD2061 /* Lecture11DragAndDropTableAndCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				DD8C509922373F3D00F1B56B /* README.md */,
 				DD4C7A2A2232D0A000AD2061 /* Lecture 11 Slides.pdf */,
+				DD64025E2237802E0031E20C /* Lecture11.storyboard */,
+				DD6402602237866C0031E20C /* Lecture11EmojiArtViewController.swift */,
+				DD640262223787A50031E20C /* Lecture11EmojiArtView.swift */,
+				DD64026422378C880031E20C /* Lecture11Utility.swift */,
 			);
-			path = Lecture11;
+			path = Lecture11DragAndDropTableAndCollectionView;
 			sourceTree = "<group>";
 		};
 		DD4C7A252232CAED00AD2061 /* Lecture12 */ = {
@@ -316,11 +347,11 @@
 			path = Lecture16;
 			sourceTree = "<group>";
 		};
-		DD50B118222FBB5D00F01BEE /* Lecture06 */ = {
+		DD50B118222FBB5D00F01BEE /* Lecture06Multitouch */ = {
 			isa = PBXGroup;
 			children = (
+				DD2AAEF42232361B0031ED8B /* README.md */,
 				DD50B119222FBB7800F01BEE /* Lecture 6 Slides.pdf */,
-				DD2AAEF42232361B0031ED8B /* Lecture06.md */,
 				DD2AAEEA2232354B0031ED8B /* Lecture06Main.storyboard */,
 				DD2AAEEC223235680031ED8B /* Lecture06ViewController.swift */,
 				DD2AAEF2223235CA0031ED8B /* Lecture06PlayingCardView.swift */,
@@ -328,14 +359,18 @@
 				DD2AAEF0223235880031ED8B /* Lecture06PlayingCard.swift */,
 				DD6FD8AE2232710C00E1E1D5 /* Assets.xcassets */,
 			);
-			path = Lecture06;
+			path = Lecture06Multitouch;
 			sourceTree = "<group>";
 		};
 		DD5D650022365D5A0018EEBD /* Lecture10Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				DD5D650122365E220018EEBD /* Lecture10AutolayoutMain.storyboard */,
 				DD48B4BE2236638C00A58653 /* README.md */,
+				DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */,
+				DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */,
+				DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */,
+				DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */,
+				DD8C509F223757C500F1B56B /* Lecture10Card.swift */,
 			);
 			path = Lecture10Autolayout;
 			sourceTree = "<group>";
@@ -365,20 +400,20 @@
 				DD773B3E22267E4B00B86763 /* Info.plist */,
 				DD773B3B22267E4B00B86763 /* LaunchScreen.storyboard */,
 				DD5D64FE22365BF70018EEBD /* Main.storyboard */,
-				DD5D64FC22365BDE0018EEBD /* UIViewController+Ds.swift */,
 				DD773B4C222698EC00B86763 /* Lecture01 */,
 				DD2A2A3A2227C54E00EB5522 /* Lecture02 */,
 				DD78DDB422290A50008436C3 /* Lecture03 */,
 				DD78DDB522290A61008436C3 /* Lecture04 */,
 				DD2A2A49222825A200EB5522 /* Assignment01 */,
 				DD78DDB622290A70008436C3 /* Lecture05 */,
-				DD50B118222FBB5D00F01BEE /* Lecture06 */,
-				DD4C7A202232C85C00AD2061 /* Lecture07 */,
-				DD4C7A212232CA0B00AD2061 /* Lecture08 */,
-				DD4C7A222232CA1C00AD2061 /* Lecture09 */,
+				DD50B118222FBB5D00F01BEE /* Lecture06Multitouch */,
+				DD4C7A202232C85C00AD2061 /* Lecture07MultipleMVCs */,
+				DD4C7A212232CA0B00AD2061 /* Lecture08Animation */,
+				DD8C509A2237404100F1B56B /* Lecture09ViewControllerLifecycle */,
+				DD4C7A222232CA1C00AD2061 /* Lecture09ScrollView */,
 				DD4C7A232232CA2000AD2061 /* Lecture10Multithreading */,
 				DD5D650022365D5A0018EEBD /* Lecture10Autolayout */,
-				DD4C7A242232CA6600AD2061 /* Lecture11 */,
+				DD4C7A242232CA6600AD2061 /* Lecture11DragAndDropTableAndCollectionView */,
 				DD4C7A252232CAED00AD2061 /* Lecture12 */,
 				DD4C7A262232CB0900AD2061 /* Lecture13 */,
 				DD4C7A272232CB1100AD2061 /* Lecture14 */,
@@ -401,8 +436,8 @@
 		DD773B4C222698EC00B86763 /* Lecture01 */ = {
 			isa = PBXGroup;
 			children = (
+				DD773B4422267E7D00B86763 /* README.md */,
 				DD78DDC422292B67008436C3 /* Lecture 1 Slides.pdf */,
-				DD773B4422267E7D00B86763 /* Lecture01.md */,
 				DD773B4D2226992B00B86763 /* Lecture01Main.storyboard */,
 				DD773B4F2226994200B86763 /* Lecture01ViewController.swift */,
 				DD6AA0F12230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf */,
@@ -413,13 +448,13 @@
 		DD78DDB422290A50008436C3 /* Lecture03 */ = {
 			isa = PBXGroup;
 			children = (
+				DD78DDBF22291756008436C3 /* README.md */,
 				DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */,
-				DD78DDBF22291756008436C3 /* Lecture03.md */,
+				DD6AA0F22230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf */,
 				DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */,
 				DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */,
 				DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */,
 				DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */,
-				DD6AA0F22230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf */,
 			);
 			path = Lecture03;
 			sourceTree = "<group>";
@@ -427,8 +462,8 @@
 		DD78DDB522290A61008436C3 /* Lecture04 */ = {
 			isa = PBXGroup;
 			children = (
+				DD78DDC622292DDB008436C3 /* README.md */,
 				DD78DDCD22292E42008436C3 /* Lecture 4 Slides.pdf */,
-				DD78DDC622292DDB008436C3 /* Lecture04.md */,
 				DD78DDC722292DF7008436C3 /* Lecture04Main.storyboard */,
 				DD78DDCF22295792008436C3 /* Lecture04ViewController.swift */,
 				DD78DDCB22292E15008436C3 /* Lecture04Concentration.swift */,
@@ -440,15 +475,30 @@
 		DD78DDB622290A70008436C3 /* Lecture05 */ = {
 			isa = PBXGroup;
 			children = (
+				DD50B117222FBA3100F01BEE /* README.md */,
 				DD50B115222FBA1C00F01BEE /* Lecture 5 Slides.pdf */,
-				DD50B117222FBA3100F01BEE /* Lecture05.md */,
+				DD6AA0F02230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf */,
 				DD2A461422311113007833E9 /* Lecture05Main.storyboard */,
 				DD2A461222311108007833E9 /* Lecture05ViewController.swift */,
 				DD2A461822311493007833E9 /* Lecture05PlayingCardDeck.swift */,
 				DD2A461622311150007833E9 /* Lecture05PlayingCard.swift */,
-				DD6AA0F02230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf */,
 			);
 			path = Lecture05;
+			sourceTree = "<group>";
+		};
+		DD8C509A2237404100F1B56B /* Lecture09ViewControllerLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				DD64024E22375B120031E20C /* README.md */,
+				DD6AA0F62230DD6800155EA4 /* Lecture 9 Slides.pdf */,
+				DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */,
+				DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */,
+				DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */,
+				DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */,
+				DD64025322375B720031E20C /* Lecture09Concentration.swift */,
+				DD64025522375B7D0031E20C /* Lecture09Card.swift */,
+			);
+			path = Lecture09ViewControllerLifecycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,11 +564,12 @@
 				DD6AA0F52230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf in Resources */,
 				DD78DDC522292B67008436C3 /* Lecture 1 Slides.pdf in Resources */,
 				DD2A461522311113007833E9 /* Lecture05Main.storyboard in Resources */,
+				DD64025822375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard in Resources */,
 				DD4C7A2E2232D0A100AD2061 /* Lecture 13 Slides.pdf in Resources */,
 				DD78DDC122292790008436C3 /* Lecture 3 Slides.pdf in Resources */,
 				DD2A2A5322282DFC00EB5522 /* Programming Project 1_ Concentration.pdf in Resources */,
 				DD78DDCE22292E42008436C3 /* Lecture 4 Slides.pdf in Resources */,
-				DD5D64EE2235F1870018EEBD /* Lecture09Main.storyboard in Resources */,
+				DD5D64EE2235F1870018EEBD /* Lecture09ScrollView.storyboard in Resources */,
 				DD773B4B222698D900B86763 /* Lecture17Main.storyboard in Resources */,
 				DD773B3D22267E4B00B86763 /* LaunchScreen.storyboard in Resources */,
 				DD6AA1002230DD6A00155EA4 /* Lecture 10 Slides.pdf in Resources */,
@@ -527,14 +578,15 @@
 				DD4C7A2D2232D0A100AD2061 /* Lecture 11 Slides.pdf in Resources */,
 				DD6AA0F42230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf in Resources */,
 				DD5D64FF22365BF70018EEBD /* Main.storyboard in Resources */,
+				DD64025F2237802E0031E20C /* Lecture11.storyboard in Resources */,
 				DD2AAEEB2232354B0031ED8B /* Lecture06Main.storyboard in Resources */,
 				DD773B3A22267E4B00B86763 /* Assets.xcassets in Resources */,
 				DD78DDC322292B4F008436C3 /* Lecture 2 Slides.pdf in Resources */,
 				DD2A2A4B222825DC00EB5522 /* Assignment01Main.storyboard in Resources */,
-				DD46ABCB22357721009DD24A /* Lecture08Main.storyboard in Resources */,
+				DD46ABCB22357721009DD24A /* Lecture08Animation.storyboard in Resources */,
 				DD50B11A222FBB7800F01BEE /* Lecture 6 Slides.pdf in Resources */,
 				DD5D64F62235FF850018EEBD /* oval.jpg in Resources */,
-				DD59C21522333A0A006BB574 /* Lecture07Main.storyboard in Resources */,
+				DD59C21522333A0A006BB574 /* Lecture07MultipleMVCs.storyboard in Resources */,
 				DD6AA0FD2230DD6A00155EA4 /* Lecture 9 Slides.pdf in Resources */,
 				DD50B116222FBA1C00F01BEE /* Lecture 5 Slides.pdf in Resources */,
 				DD78DDB822290AEA008436C3 /* Lecture03Main.storyboard in Resources */,
@@ -545,9 +597,9 @@
 				DD6AA0F32230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf in Resources */,
 				DD6FD8AF2232710C00E1E1D5 /* Assets.xcassets in Resources */,
 				DD5D64F02235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard in Resources */,
-				DD2A2A3E2227C54E00EB5522 /* Lecture02.md in Resources */,
+				DD2A2A3E2227C54E00EB5522 /* README.md in Resources */,
 				DD6AA0FF2230DD6A00155EA4 /* Lecture 7 Slides.pdf in Resources */,
-				DD5D650222365E220018EEBD /* Lecture10AutolayoutMain.storyboard in Resources */,
+				DD5D650222365E220018EEBD /* Lecture10Autolayout.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,22 +614,31 @@
 				DD78DDD022295792008436C3 /* Lecture04ViewController.swift in Sources */,
 				DD46ABC2223507B3009DD24A /* Lecture07ConcentrationViewController.swift in Sources */,
 				DD2A2A51222826A600EB5522 /* Assignment01ViewController.swift in Sources */,
+				DD64026522378C880031E20C /* Lecture11Utility.swift in Sources */,
+				DD8C509E223757A900F1B56B /* Lecture10Concentration.swift in Sources */,
 				DD46ABCE22357769009DD24A /* Lecture08ViewController.swift in Sources */,
 				DD46ABC922351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift in Sources */,
 				DD2AAEF1223235880031ED8B /* Lecture06PlayingCard.swift in Sources */,
+				DD64025022375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift in Sources */,
 				DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */,
 				DD78DDBE22290EA1008436C3 /* Lecture03Concentration.swift in Sources */,
+				DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */,
 				DD46ABC522351250009DD24A /* Lecture07Concentration.swift in Sources */,
 				DD5D64EA2235EC230018EEBD /* Lecture09VCLViewController.swift in Sources */,
 				DD5D64F922363FF00018EEBD /* Lecture10CassiniViewController.swift in Sources */,
+				DD8C509C2237579400F1B56B /* Lecture10ConcentrationViewController.swift in Sources */,
 				DD46ABD2223577F3009DD24A /* Lecture08PlayingCard.swift in Sources */,
 				DD2AAEED223235680031ED8B /* Lecture06ViewController.swift in Sources */,
 				DD46ABC7223512A0009DD24A /* Lecture07Card.swift in Sources */,
+				DD640263223787A50031E20C /* Lecture11EmojiArtView.swift in Sources */,
+				DD6402612237866C0031E20C /* Lecture11EmojiArtViewController.swift in Sources */,
+				DD8C50A2223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift in Sources */,
 				DD2A2A4D2228267200EB5522 /* Assignment01Card.swift in Sources */,
 				DD2A2A442227C62A00EB5522 /* Lecture02Card.swift in Sources */,
 				DD773B3322267E4A00B86763 /* AppDelegate.swift in Sources */,
 				DD2AAEEF2232357C0031ED8B /* Lecture06PlayingCardDeck.swift in Sources */,
 				DD78DDBA22290E81008436C3 /* Lecture03ViewController.swift in Sources */,
+				DD64025622375B7D0031E20C /* Lecture09Card.swift in Sources */,
 				DD78DDCC22292E15008436C3 /* Lecture04Concentration.swift in Sources */,
 				DD2AAEF3223235CA0031ED8B /* Lecture06PlayingCardView.swift in Sources */,
 				DD5D64EC2235F16A0018EEBD /* Lecture09ImageViewController.swift in Sources */,
@@ -585,14 +646,15 @@
 				DD5D64F42235F9D10018EEBD /* Lecture09DemoURL.swift in Sources */,
 				DD2A2A402227C54E00EB5522 /* Lecture02ViewController.swift in Sources */,
 				DD78DDBC22290E8D008436C3 /* Lecture03Card.swift in Sources */,
+				DD8C50A0223757C500F1B56B /* Lecture10Card.swift in Sources */,
 				DD78DDCA22292E06008436C3 /* Lecture04Card.swift in Sources */,
+				DD64025222375B5E0031E20C /* Lecture09ConcentrationViewController.swift in Sources */,
 				DD5D64F22235F36B0018EEBD /* Lecture10ImageViewController.swift in Sources */,
 				DD2A461922311493007833E9 /* Lecture05PlayingCardDeck.swift in Sources */,
 				DD2A461722311150007833E9 /* Lecture05PlayingCard.swift in Sources */,
 				DD2A2A422227C58200EB5522 /* Lecture02Concentration.swift in Sources */,
 				DD773B47222680C100B86763 /* Lecture17ViewController.swift in Sources */,
 				DD46ABD0223577CD009DD24A /* Lecture08PlayingCardView.swift in Sources */,
-				DD5D64FD22365BDE0018EEBD /* UIViewController+Ds.swift in Sources */,
 				DD46ABD422357805009DD24A /* Lecture08PlayingCardDeck.swift in Sources */,
 				DD773B502226994200B86763 /* Lecture01ViewController.swift in Sources */,
 			);

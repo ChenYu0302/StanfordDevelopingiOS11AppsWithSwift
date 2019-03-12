@@ -32,14 +32,14 @@ struct Lecture08PlayingCardDeck
 /*
  此处代码被注释，因为对 Int 的扩展不能重复
  extension Int {
- var arc4random:Int {
- if self > 0 {
- return Int(arc4random_uniform(UInt32(self)))
- }else if self < 0 {
- return -Int(arc4random_uniform(UInt32(abs(self))))
- }else{
- return 0
- }
- }
+     var arc4random:Int {
+         if self > 0 {
+            return Int(arc4random_uniform(UInt32(self)))
+         }else if self < 0 {
+            return -Int(arc4random_uniform(UInt32(abs(self))))
+         }else{
+            return 0
+         }
+     }
  }
  */
