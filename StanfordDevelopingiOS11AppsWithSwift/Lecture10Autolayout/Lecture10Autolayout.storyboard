@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Lecture07 Concentration View Controller-->
+        <!--Lecture10 Concentration View Controller-->
         <scene sceneID="bZu-rl-612">
             <objects>
-                <viewController id="BC6-pL-fxM" customClass="Lecture07ConcentrationViewController" customModule="StanfordDevelopingiOS11AppsWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BC6-pL-fxM" customClass="Lecture10ConcentrationViewController" customModule="StanfordDevelopingiOS11AppsWithSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2aT-KO-cLk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

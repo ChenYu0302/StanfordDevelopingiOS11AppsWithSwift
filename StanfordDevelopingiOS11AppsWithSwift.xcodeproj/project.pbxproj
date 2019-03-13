@@ -71,7 +71,6 @@
 		DD6AA1012230DD6A00155EA4 /* Lecture 14 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0FA2230DD6A00155EA4 /* Lecture 14 Slides.pdf */; };
 		DD6AA1022230DD6A00155EA4 /* Lecture 8 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0FB2230DD6A00155EA4 /* Lecture 8 Slides.pdf */; };
 		DD6AA1032230DD6A00155EA4 /* Lecture 15 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD6AA0FC2230DD6A00155EA4 /* Lecture 15 Slides.pdf */; };
-		DD6FD8AF2232710C00E1E1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6FD8AE2232710C00E1E1D5 /* Assets.xcassets */; };
 		DD773B3322267E4A00B86763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B3222267E4A00B86763 /* AppDelegate.swift */; };
 		DD773B3A22267E4B00B86763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD773B3922267E4B00B86763 /* Assets.xcassets */; };
 		DD773B3D22267E4B00B86763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B3B22267E4B00B86763 /* LaunchScreen.storyboard */; };
@@ -94,7 +93,7 @@
 		DD8C509C2237579400F1B56B /* Lecture10ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */; };
 		DD8C509E223757A900F1B56B /* Lecture10Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */; };
 		DD8C50A0223757C500F1B56B /* Lecture10Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509F223757C500F1B56B /* Lecture10Card.swift */; };
-		DD8C50A2223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */; };
+		DDFA05772238E43100D979B5 /* Lecture08CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,7 +170,6 @@
 		DD6AA0FA2230DD6A00155EA4 /* Lecture 14 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 14 Slides.pdf"; sourceTree = "<group>"; };
 		DD6AA0FB2230DD6A00155EA4 /* Lecture 8 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 8 Slides.pdf"; sourceTree = "<group>"; };
 		DD6AA0FC2230DD6A00155EA4 /* Lecture 15 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 15 Slides.pdf"; sourceTree = "<group>"; };
-		DD6FD8AE2232710C00E1E1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD773B2F22267E4A00B86763 /* StanfordDevelopingiOS11AppsWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordDevelopingiOS11AppsWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD773B3222267E4A00B86763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD773B3922267E4B00B86763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -201,7 +199,7 @@
 		DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ConcentrationViewController.swift; sourceTree = "<group>"; };
 		DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10Concentration.swift; sourceTree = "<group>"; };
 		DD8C509F223757C500F1B56B /* Lecture10Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10Card.swift; sourceTree = "<group>"; };
-		DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
+		DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08CardBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +260,7 @@
 				DD6AA0FB2230DD6A00155EA4 /* Lecture 8 Slides.pdf */,
 				DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */,
 				DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */,
+				DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */,
 				DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */,
 				DD46ABD322357805009DD24A /* Lecture08PlayingCardDeck.swift */,
 				DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */,
@@ -357,7 +356,6 @@
 				DD2AAEF2223235CA0031ED8B /* Lecture06PlayingCardView.swift */,
 				DD2AAEEE2232357C0031ED8B /* Lecture06PlayingCardDeck.swift */,
 				DD2AAEF0223235880031ED8B /* Lecture06PlayingCard.swift */,
-				DD6FD8AE2232710C00E1E1D5 /* Assets.xcassets */,
 			);
 			path = Lecture06Multitouch;
 			sourceTree = "<group>";
@@ -367,7 +365,6 @@
 			children = (
 				DD48B4BE2236638C00A58653 /* README.md */,
 				DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */,
-				DD8C50A1223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift */,
 				DD8C509B2237579400F1B56B /* Lecture10ConcentrationViewController.swift */,
 				DD8C509D223757A900F1B56B /* Lecture10Concentration.swift */,
 				DD8C509F223757C500F1B56B /* Lecture10Card.swift */,
@@ -595,7 +592,6 @@
 				DD6AA1032230DD6A00155EA4 /* Lecture 15 Slides.pdf in Resources */,
 				DD78DDC822292DF7008436C3 /* Lecture04Main.storyboard in Resources */,
 				DD6AA0F32230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf in Resources */,
-				DD6FD8AF2232710C00E1E1D5 /* Assets.xcassets in Resources */,
 				DD5D64F02235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard in Resources */,
 				DD2A2A3E2227C54E00EB5522 /* README.md in Resources */,
 				DD6AA0FF2230DD6A00155EA4 /* Lecture 7 Slides.pdf in Resources */,
@@ -632,11 +628,11 @@
 				DD46ABC7223512A0009DD24A /* Lecture07Card.swift in Sources */,
 				DD640263223787A50031E20C /* Lecture11EmojiArtView.swift in Sources */,
 				DD6402612237866C0031E20C /* Lecture11EmojiArtViewController.swift in Sources */,
-				DD8C50A2223757EB00F1B56B /* Lecture10ConcentrationThemeChooserViewController.swift in Sources */,
 				DD2A2A4D2228267200EB5522 /* Assignment01Card.swift in Sources */,
 				DD2A2A442227C62A00EB5522 /* Lecture02Card.swift in Sources */,
 				DD773B3322267E4A00B86763 /* AppDelegate.swift in Sources */,
 				DD2AAEEF2232357C0031ED8B /* Lecture06PlayingCardDeck.swift in Sources */,
+				DDFA05772238E43100D979B5 /* Lecture08CardBehavior.swift in Sources */,
 				DD78DDBA22290E81008436C3 /* Lecture03ViewController.swift in Sources */,
 				DD64025622375B7D0031E20C /* Lecture09Card.swift in Sources */,
 				DD78DDCC22292E15008436C3 /* Lecture04Concentration.swift in Sources */,

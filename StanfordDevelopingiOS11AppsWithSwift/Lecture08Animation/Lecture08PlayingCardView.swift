@@ -127,7 +127,7 @@ import UIKit
     }
     
     override func draw(_ rect: CGRect) {
-        let roundedRect = UIBezierPath(roundedRect: bounds, cornerRadius: 16.0)
+        let roundedRect = UIBezierPath(roundedRect: bounds, cornerRadius: SizeRatio.cornerRadiusToBoundsHeight * bounds.height)
         roundedRect.addClip()
         UIColor.white.setFill()
         roundedRect.fill()
@@ -149,7 +149,7 @@ import UIKit
 extension Lecture08PlayingCardView {
     private struct SizeRatio {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
-        static let cornerRadiusToBoundsHeight: CGFloat = 0.06
+        static let cornerRadiusToBoundsHeight: CGFloat = 0.08
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
         static let faceCardImageSizeSizeToBoundsSize: CGFloat = 0.75
     }
