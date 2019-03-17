@@ -8,9 +8,8 @@
 
 import UIKit
 
-class Lecture10CassiniViewController: UIViewController {
-
-    
+class Lecture10CassiniViewController: UIViewController
+{
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

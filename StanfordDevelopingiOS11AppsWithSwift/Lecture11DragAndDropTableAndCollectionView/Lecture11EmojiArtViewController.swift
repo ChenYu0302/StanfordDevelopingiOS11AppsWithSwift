@@ -18,6 +18,8 @@ class Lecture11EmojiArtViewController: UIViewController,UIDropInteractionDelegat
         }
     }
     
+    @IBOutlet weak var emojiArtView: Lecture11EmojiArtView!
+    
     func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
         return session.canLoadObjects(ofClass: NSURL.self) && session.canLoadObjects(ofClass: UIImage.self)
     }
@@ -48,7 +50,4 @@ class Lecture11EmojiArtViewController: UIViewController,UIDropInteractionDelegat
             }
         }
     }
-    
-    @IBOutlet weak var emojiArtView: Lecture11EmojiArtView!
-    
 }

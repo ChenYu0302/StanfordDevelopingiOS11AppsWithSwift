@@ -1,5 +1,5 @@
 //
-//  Lecture11Utility.swift
+//  Lecture12Utility.swift
 //  StanfordDevelopingiOS11AppsWithSwift
 //
 //  Created by 陈宇 on 2019/3/12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Lecture11ImageFetcher
+class Lecture12ImageFetcher
 {
     // Public API
     // 公开 API
@@ -78,6 +78,7 @@ class Lecture11ImageFetcher
 
 
 // MARK: - Lecture11 Extenstion
+/*
 extension URL {
     var imageURL: URL {
         if let url = UIImage.urlToStoreLocallyAsJPEG(named: self.path) {
@@ -155,17 +156,11 @@ extension String {
         return possiblyUnique
     }
 }
+*/
+
 
 
 // MARK: - Lecture12 Extenstion
-/*
-extension Array where Element: Equatable {
-    var uniquified: [Element] {
-        var elements = [Element]()
-        forEach { if !elements.contains($0) { elements.append($0) } }
-        return elements
-    }
-}
 
 extension NSAttributedString {
     func withFontScaled(by factor: CGFloat) -> NSAttributedString {
@@ -178,13 +173,6 @@ extension NSAttributedString {
     }
 }
 
-extension String {
-    func attributedString(withTextStyle style: UIFontTextStyle, ofSize size: CGFloat) -> NSAttributedString {
-        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
-        return NSAttributedString(string: self, attributes: [.font:font])
-    }
-}
-
 extension NSMutableAttributedString {
     func setFont(_ newValue: UIFont?) {
         if newValue != nil { addAttributes([.font:newValue!], range: NSMakeRange(0, length)) }
@@ -192,8 +180,8 @@ extension NSMutableAttributedString {
 }
 
 extension UIFont {
-    func scaled(by factor: CGFloat) -> UIFont { return withSize(pointSize * factor) }
-}
+ func scaled(by factor: CGFloat) -> UIFont { return withSize(pointSize * factor) }
+ }
 
 extension UILabel {
     func stretchToFit() {
@@ -209,23 +197,42 @@ extension CGPoint {
     }
 }
 
-extension UIViewController {
-    var contents: UIViewController {
-        if let navcon = self as? UINavigationController {
-            return navcon.visibleViewController ?? navcon
-        } else {
-            return self
-        }
-    }
-}
+// MARK: - Lecture13 Extenstion
 
-extension UIView {
-    var snapshot: UIImage? {
-        UIGraphicsBeginImageContext(bounds.size)
-        drawHierarchy(in: bounds, afterScreenUpdates: true)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image
-    }
-}
-*/
+//extension Array where Element: Equatable {
+//    var uniquified: [Element] {
+//        var elements = [Element]()
+//        forEach { if !elements.contains($0) { elements.append($0) } }
+//        return elements
+//    }
+//}
+
+// extension String {
+// func attributedString(withTextStyle style: UIFontTextStyle, ofSize size: CGFloat) -> NSAttributedString {
+// let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
+// return NSAttributedString(string: self, attributes: [.font:font])
+// }
+// }
+
+/*
+ extension UIViewController {
+ var contents: UIViewController {
+ if let navcon = self as? UINavigationController {
+ return navcon.visibleViewController ?? navcon
+ } else {
+ return self
+ }
+ }
+ }
+ 
+ extension UIView {
+ var snapshot: UIImage? {
+ UIGraphicsBeginImageContext(bounds.size)
+ drawHierarchy(in: bounds, afterScreenUpdates: true)
+ let image = UIGraphicsGetImageFromCurrentImageContext()
+ UIGraphicsEndImageContext()
+ return image
+ }
+ }
+ */
+
