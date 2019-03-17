@@ -10,7 +10,8 @@ import UIKit
 
 class Lecture13EmojiArtViewController: UIViewController,UIDropInteractionDelegate, UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDragDelegate, UICollectionViewDropDelegate
 {
-    // MARK: - DropZone
+    
+    // MARK: - Storyboard
     
     @IBOutlet weak var dropZone: UIView! {
         didSet {
@@ -18,42 +19,59 @@ class Lecture13EmojiArtViewController: UIViewController,UIDropInteractionDelegat
         }
     }
     
-    func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
-        return session.canLoadObjects(ofClass: NSURL.self) && session.canLoadObjects(ofClass: UIImage.self)
-    }
+    @IBOutlet weak var scrollViewHeight: NSLayoutConstraint!
+    @IBOutlet weak var scrollViewWidth: NSLayoutConstraint!
     
-    func dropInteraction(_ interaction: UIDropInteraction, sessionDidUpdate session: UIDropSession) -> UIDropProposal {
-        return UIDropProposal(operation: .copy)
-    }
-    
-    var imageFetcher: Lecture13ImageFetcher!
-    
-    func dropInteraction(_ interaction: UIDropInteraction, performDrop session: UIDropSession) {
-        
-        imageFetcher = Lecture13ImageFetcher() { (url, image) in
-            DispatchQueue.main.async {
-                self.emojiArtBackgroundImage = image // 修改为 emojiArtBackgroundImage
-            }
-        }
-        
-        session.loadObjects(ofClass: NSURL.self) { nsurls in
-            if let url = nsurls.first as? URL {
-                self.imageFetcher.fetch(url)
-            }
-        }
-        
-        session.loadObjects(ofClass: UIImage.self) { images in
-            if let image = images.first as? UIImage {
-                self.imageFetcher.backup = image
-            }
+    @IBOutlet weak var scrollView: UIScrollView! {
+        didSet{
+            scrollView.minimumZoomScale = 0.1
+            scrollView.maximumZoomScale = 5.0
+            scrollView.delegate = self
+            scrollView.addSubview(emojiArtView)
         }
     }
     
-     var emojiArtView = Lecture13EmojiArtView()
+    func scrollViewDidZoom(_ scrollView: UIScrollView) {
+        scrollViewHeight.constant = scrollView.contentSize.height
+        scrollViewWidth.constant = scrollView.contentSize.width
+    }
+    
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return emojiArtView
+    }
+    
+    var emojiArtBackgroundImage: UIImage? {
+        get {
+            return emojiArtView.backgroundImage
+        }
+        set {
+            scrollView?.zoomScale = 1.0
+            emojiArtView.backgroundImage = newValue
+            let size = newValue?.size ?? CGSize.zero
+            emojiArtView.frame = CGRect(origin: CGPoint.zero, size: size)
+            scrollView.contentSize = size
+            scrollViewHeight?.constant = size.height
+            scrollViewWidth?.constant = size.width
+            if let dropZone = self.dropZone, size.width > 0, size.height > 0  {
+                scrollView?.zoomScale = max(dropZone.bounds.size.width / size.width, dropZone.bounds.size.height / size.height)
+            }
+        }
+    }
+    
+    var emojiArtView = Lecture13EmojiArtView()
     
     // MARK: - Emoji Colletion View
     
     var emojis = "😁✈️🐷☎️🌈🎵🎼♣️👻🤡🎱☕️✏️".map { String($0) }
+    
+    @IBOutlet weak var emojiColletionView: UICollectionView! {
+        didSet {
+            emojiColletionView.dataSource = self
+            emojiColletionView.delegate = self
+            emojiColletionView.dragDelegate = self
+            emojiColletionView.dropDelegate = self
+        }
+    }
     
     private var font: UIFont {
         return UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body)).withSize(64.0)
@@ -105,7 +123,7 @@ class Lecture13EmojiArtViewController: UIViewController,UIDropInteractionDelegat
             return cell
         }
     }
-
+    
     // MARK: - UIColletionViewDelegateFlowLayout
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -201,55 +219,34 @@ class Lecture13EmojiArtViewController: UIViewController,UIDropInteractionDelegat
         }
     }
     
+    // MARK: - UIDropInteractionDelegate
+    func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
+        return session.canLoadObjects(ofClass: NSURL.self) && session.canLoadObjects(ofClass: UIImage.self)
+    }
     
+    func dropInteraction(_ interaction: UIDropInteraction, sessionDidUpdate session: UIDropSession) -> UIDropProposal {
+        return UIDropProposal(operation: .copy)
+    }
     
-    @IBOutlet weak var emojiColletionView: UICollectionView! {
-        didSet {
-            emojiColletionView.dataSource = self
-            emojiColletionView.delegate = self
-            emojiColletionView.dragDelegate = self
-            emojiColletionView.dropDelegate = self
+    var imageFetcher: Lecture13ImageFetcher!
+    
+    func dropInteraction(_ interaction: UIDropInteraction, performDrop session: UIDropSession) {
+        
+        imageFetcher = Lecture13ImageFetcher() { (url, image) in
+            DispatchQueue.main.async {
+                self.emojiArtBackgroundImage = image // 修改为 emojiArtBackgroundImage
+            }
         }
-    }
-    
-    
-    @IBOutlet weak var scrollView: UIScrollView! {
-        didSet{
-            scrollView.minimumZoomScale = 0.1
-            scrollView.maximumZoomScale = 5.0
-            scrollView.delegate = self
-            scrollView.addSubview(emojiArtView)
+        
+        session.loadObjects(ofClass: NSURL.self) { nsurls in
+            if let url = nsurls.first as? URL {
+                self.imageFetcher.fetch(url)
+            }
         }
-    }
-    
-    @IBOutlet weak var scrollViewHeight: NSLayoutConstraint!
-    @IBOutlet weak var scrollViewWidth: NSLayoutConstraint!
-    
-    
-    // MARK: - ScrollView
-    func scrollViewDidZoom(_ scrollView: UIScrollView) {
-        scrollViewHeight.constant = scrollView.contentSize.height
-        scrollViewWidth.constant = scrollView.contentSize.width
-    }
-    
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return emojiArtView
-    }
-    
-    var emojiArtBackgroundImage: UIImage? {
-        get {
-            return emojiArtView.backgroundImage
-        }
-        set {
-            scrollView?.zoomScale = 1.0
-            emojiArtView.backgroundImage = newValue
-            let size = newValue?.size ?? CGSize.zero
-            emojiArtView.frame = CGRect(origin: CGPoint.zero, size: size)
-            scrollView.contentSize = size
-            scrollViewHeight?.constant = size.height
-            scrollViewWidth?.constant = size.width
-            if let dropZone = self.dropZone, size.width > 0, size.height > 0  {
-                scrollView?.zoomScale = max(dropZone.bounds.size.width / size.width, dropZone.bounds.size.height / size.height)
+        
+        session.loadObjects(ofClass: UIImage.self) { images in
+            if let image = images.first as? UIImage {
+                self.imageFetcher.backup = image
             }
         }
     }

@@ -51,6 +51,15 @@
 		DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */; };
 		DD5D64FF22365BF70018EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64FE22365BF70018EEBD /* Main.storyboard */; };
 		DD5D650222365E220018EEBD /* Lecture10Autolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */; };
+		DD5FD247223DEB74002325E4 /* Lecture14.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5FD246223DEB74002325E4 /* Lecture14.storyboard */; };
+		DD5FD250223DEC1B002325E4 /* Lecture14EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD248223DEC1B002325E4 /* Lecture14EmojiArtViewController.swift */; };
+		DD5FD251223DEC1C002325E4 /* Lecture14TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD249223DEC1B002325E4 /* Lecture14TextFieldCollectionViewCell.swift */; };
+		DD5FD252223DEC1C002325E4 /* Lecture14EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD24A223DEC1B002325E4 /* Lecture14EmojiArtView+Gestures.swift */; };
+		DD5FD253223DEC1C002325E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD5FD24B223DEC1B002325E4 /* README.md */; };
+		DD5FD254223DEC1C002325E4 /* Lecture14EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD24C223DEC1B002325E4 /* Lecture14EmojiArtDocumentTableViewController.swift */; };
+		DD5FD255223DEC1C002325E4 /* Lecture14EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD24D223DEC1B002325E4 /* Lecture14EmojiCollectionViewCell.swift */; };
+		DD5FD256223DEC1C002325E4 /* Lecture14EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD24E223DEC1B002325E4 /* Lecture14EmojiArtView.swift */; };
+		DD5FD257223DEC1C002325E4 /* Lecture14Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD24F223DEC1B002325E4 /* Lecture14Utility.swift */; };
 		DD64025022375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */; };
 		DD64025222375B5E0031E20C /* Lecture09ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */; };
 		DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025322375B720031E20C /* Lecture09Concentration.swift */; };
@@ -162,6 +171,15 @@
 		DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10DemoURLs.swift; sourceTree = "<group>"; };
 		DD5D64FE22365BF70018EEBD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DD5D650122365E220018EEBD /* Lecture10Autolayout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture10Autolayout.storyboard; sourceTree = "<group>"; };
+		DD5FD246223DEB74002325E4 /* Lecture14.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture14.storyboard; sourceTree = "<group>"; };
+		DD5FD248223DEC1B002325E4 /* Lecture14EmojiArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14EmojiArtViewController.swift; sourceTree = "<group>"; };
+		DD5FD249223DEC1B002325E4 /* Lecture14TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD5FD24A223DEC1B002325E4 /* Lecture14EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lecture14EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
+		DD5FD24B223DEC1B002325E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD5FD24C223DEC1B002325E4 /* Lecture14EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
+		DD5FD24D223DEC1B002325E4 /* Lecture14EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD5FD24E223DEC1B002325E4 /* Lecture14EmojiArtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14EmojiArtView.swift; sourceTree = "<group>"; };
+		DD5FD24F223DEC1B002325E4 /* Lecture14Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14Utility.swift; sourceTree = "<group>"; };
 		DD64024E22375B120031E20C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ConcentrationViewController.swift; sourceTree = "<group>"; };
@@ -375,7 +393,16 @@
 		DD4C7A272232CB1100AD2061 /* Lecture14 */ = {
 			isa = PBXGroup;
 			children = (
+				DD5FD24B223DEC1B002325E4 /* README.md */,
 				DD6AA0FA2230DD6A00155EA4 /* Lecture 14 Slides.pdf */,
+				DD5FD246223DEB74002325E4 /* Lecture14.storyboard */,
+				DD5FD24C223DEC1B002325E4 /* Lecture14EmojiArtDocumentTableViewController.swift */,
+				DD5FD248223DEC1B002325E4 /* Lecture14EmojiArtViewController.swift */,
+				DD5FD24E223DEC1B002325E4 /* Lecture14EmojiArtView.swift */,
+				DD5FD24A223DEC1B002325E4 /* Lecture14EmojiArtView+Gestures.swift */,
+				DD5FD24D223DEC1B002325E4 /* Lecture14EmojiCollectionViewCell.swift */,
+				DD5FD249223DEC1B002325E4 /* Lecture14TextFieldCollectionViewCell.swift */,
+				DD5FD24F223DEC1B002325E4 /* Lecture14Utility.swift */,
 			);
 			path = Lecture14;
 			sourceTree = "<group>";
@@ -628,11 +655,13 @@
 				DD5D64FF22365BF70018EEBD /* Main.storyboard in Resources */,
 				DD64025F2237802E0031E20C /* Lecture11.storyboard in Resources */,
 				DD2AAEEB2232354B0031ED8B /* Lecture06Main.storyboard in Resources */,
+				DD5FD253223DEC1C002325E4 /* README.md in Resources */,
 				DD98B3C9223BD8A00093654F /* README.md in Resources */,
 				DD773B3A22267E4B00B86763 /* Assets.xcassets in Resources */,
 				DD78DDC322292B4F008436C3 /* Lecture 2 Slides.pdf in Resources */,
 				DD2A2A4B222825DC00EB5522 /* Assignment01Main.storyboard in Resources */,
 				DD46ABCB22357721009DD24A /* Lecture08Animation.storyboard in Resources */,
+				DD5FD247223DEB74002325E4 /* Lecture14.storyboard in Resources */,
 				DD72673D223D3449008D12D1 /* Lecture13.storyboard in Resources */,
 				DD50B11A222FBB7800F01BEE /* Lecture 6 Slides.pdf in Resources */,
 				DD59C21522333A0A006BB574 /* Lecture07MultipleMVCs.storyboard in Resources */,
@@ -656,6 +685,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5FD251223DEC1C002325E4 /* Lecture14TextFieldCollectionViewCell.swift in Sources */,
 				DD2A461322311108007833E9 /* Lecture05ViewController.swift in Sources */,
 				DD78DDD022295792008436C3 /* Lecture04ViewController.swift in Sources */,
 				DD46ABC2223507B3009DD24A /* Lecture07ConcentrationViewController.swift in Sources */,
@@ -666,15 +696,18 @@
 				DD46ABCE22357769009DD24A /* Lecture08ViewController.swift in Sources */,
 				DDCE89A7223A9C85000017DE /* Lecture12EmojiArtViewController.swift in Sources */,
 				DD98B3B4223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift in Sources */,
+				DD5FD255223DEC1C002325E4 /* Lecture14EmojiCollectionViewCell.swift in Sources */,
 				DD46ABC922351810009DD24A /* Lecture07ConcentrationThemeChooserViewController.swift in Sources */,
 				DD726747223D37F8008D12D1 /* Lecture13Utility.swift in Sources */,
 				DD2AAEF1223235880031ED8B /* Lecture06PlayingCard.swift in Sources */,
 				DD64025022375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift in Sources */,
 				DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */,
 				DD78DDBE22290EA1008436C3 /* Lecture03Concentration.swift in Sources */,
+				DD5FD254223DEC1C002325E4 /* Lecture14EmojiArtDocumentTableViewController.swift in Sources */,
 				DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */,
 				DD46ABC522351250009DD24A /* Lecture07Concentration.swift in Sources */,
 				DD5D64EA2235EC230018EEBD /* Lecture09VCLViewController.swift in Sources */,
+				DD5FD257223DEC1C002325E4 /* Lecture14Utility.swift in Sources */,
 				DD72673F223D3589008D12D1 /* Lecture13TextFieldCollectionViewCell.swift in Sources */,
 				DD5D64F922363FF00018EEBD /* Lecture10CassiniViewController.swift in Sources */,
 				DD8C509C2237579400F1B56B /* Lecture10ConcentrationViewController.swift in Sources */,
@@ -682,6 +715,7 @@
 				DD2AAEED223235680031ED8B /* Lecture06ViewController.swift in Sources */,
 				DD46ABC7223512A0009DD24A /* Lecture07Card.swift in Sources */,
 				DD72673A223D2CFE008D12D1 /* Lecture12EmojiArtView+Gestures.swift in Sources */,
+				DD5FD252223DEC1C002325E4 /* Lecture14EmojiArtView+Gestures.swift in Sources */,
 				DD72674B223D37F8008D12D1 /* Lecture13EmojiArtViewController.swift in Sources */,
 				DD726749223D37F8008D12D1 /* Lecture13EmojiArtView.swift in Sources */,
 				DD53766C223A8C2800BEF14B /* Lecture11EmojiArtDocumentTableViewController.swift in Sources */,
@@ -705,6 +739,7 @@
 				DD2A2A402227C54E00EB5522 /* Lecture02ViewController.swift in Sources */,
 				DD78DDBC22290E8D008436C3 /* Lecture03Card.swift in Sources */,
 				DDCE89A9223A9CEF000017DE /* Lecture12EmojiArtView.swift in Sources */,
+				DD5FD250223DEC1B002325E4 /* Lecture14EmojiArtViewController.swift in Sources */,
 				DD8C50A0223757C500F1B56B /* Lecture10Card.swift in Sources */,
 				DD78DDCA22292E06008436C3 /* Lecture04Card.swift in Sources */,
 				DD64025222375B5E0031E20C /* Lecture09ConcentrationViewController.swift in Sources */,
@@ -713,6 +748,7 @@
 				DD2A461722311150007833E9 /* Lecture05PlayingCard.swift in Sources */,
 				DD726748223D37F8008D12D1 /* Lecture13EmojiArtView+Gestures.swift in Sources */,
 				DD2A2A422227C58200EB5522 /* Lecture02Concentration.swift in Sources */,
+				DD5FD256223DEC1C002325E4 /* Lecture14EmojiArtView.swift in Sources */,
 				DD773B47222680C100B86763 /* Lecture17ViewController.swift in Sources */,
 				DD46ABD0223577CD009DD24A /* Lecture08PlayingCardView.swift in Sources */,
 				DD46ABD422357805009DD24A /* Lecture08PlayingCardDeck.swift in Sources */,
