@@ -116,7 +116,7 @@ class Lecture12EmojiArtViewController: UIViewController,UIDropInteractionDelegat
     
     // MARK: - ScrollView
     
-    var emojiArtView = Lecture12EmojiArtView()
+    var emojiArtView = L12EmojiArtView()
     
     @IBOutlet weak var scrollView: UIScrollView! {
         didSet{

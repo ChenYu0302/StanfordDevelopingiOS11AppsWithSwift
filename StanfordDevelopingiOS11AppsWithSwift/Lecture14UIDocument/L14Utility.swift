@@ -1,5 +1,5 @@
 //
-//  Lecture11Utility.swift
+//  Lecture13Utility.swift
 //  StanfordDevelopingiOS11AppsWithSwift
 //
 //  Created by 陈宇 on 2019/3/12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class L11ImageFetcher
+class L14ImageFetcher
 {
     // Public API
     // 公开 API
@@ -65,7 +65,6 @@ class L11ImageFetcher
     }
     
     // Private Implementation
-    // Private 私有实现
     
     private let handler: (URL, UIImage) -> Void
     private var fetchFailed = false { didSet { callHandlerIfNeeded() } }
@@ -78,6 +77,7 @@ class L11ImageFetcher
 
 
 // MARK: - Lecture11 Extenstion
+/*
 extension URL {
     var imageURL: URL {
         if let url = UIImage.urlToStoreLocallyAsJPEG(named: self.path) {
@@ -155,18 +155,11 @@ extension String {
         return possiblyUnique
     }
 }
-
+*/
 
 // MARK: - Lecture12 Extenstion
-/*
-extension Array where Element: Equatable {
-    var uniquified: [Element] {
-        var elements = [Element]()
-        forEach { if !elements.contains($0) { elements.append($0) } }
-        return elements
-    }
-}
 
+/*
 extension NSAttributedString {
     func withFontScaled(by factor: CGFloat) -> NSAttributedString {
         let mutable = NSMutableAttributedString(attributedString: self)
@@ -175,13 +168,6 @@ extension NSAttributedString {
     }
     var font: UIFont? {
         get { return attribute(.font, at: 0, effectiveRange: nil) as? UIFont }
-    }
-}
-
-extension String {
-    func attributedString(withTextStyle style: UIFontTextStyle, ofSize size: CGFloat) -> NSAttributedString {
-        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
-        return NSAttributedString(string: self, attributes: [.font:font])
     }
 }
 
@@ -208,7 +194,39 @@ extension CGPoint {
         return CGPoint(x: x + delta.x, y: y + delta.y)
     }
 }
+*/
 
+// MARK: - Lecture13 Extenstion
+/*
+extension Array where Element: Equatable {
+    var uniquified: [Element] {
+        var elements = [Element]()
+        forEach { if !elements.contains($0) { elements.append($0) } }
+        return elements
+    }
+}
+*/
+
+// MARK: - Lecture14 Extenstion
+extension String {
+    func attributedString(withTextStyle style: UIFont.TextStyle, ofSize size: CGFloat) -> NSAttributedString {
+        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
+        return NSAttributedString(string: self, attributes: [.font:font])
+    }
+}
+
+extension UIView {
+    var snapshot: UIImage? { // 视图的截图
+        UIGraphicsBeginImageContext(bounds.size)
+        drawHierarchy(in: bounds, afterScreenUpdates: true)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+}
+
+// MARK: - Lecture10 Extenstion
+/*
 extension UIViewController {
     var contents: UIViewController {
         if let navcon = self as? UINavigationController {
@@ -218,14 +236,7 @@ extension UIViewController {
         }
     }
 }
+ */
 
-extension UIView {
-    var snapshot: UIImage? {
-        UIGraphicsBeginImageContext(bounds.size)
-        drawHierarchy(in: bounds, afterScreenUpdates: true)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image
-    }
-}
-*/
+
+

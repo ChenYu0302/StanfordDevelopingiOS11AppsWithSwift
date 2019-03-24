@@ -1,7 +1,7 @@
 #  斯坦福大学 CS193P iOS 11 应用程序开发课程
 
 ## 项目说明：
-本项目为斯坦福大学 CS193P iOS 11 应用程序开发课程  [Developing iOS 11 Apps with Swift By Paul Hegarty](https://itunes.apple.com/cn/podcast/developing-ios-11-apps-with-swift/id1315130780?mt=2) 的课程代码，当前进度为 Lecture 07。
+本项目为斯坦福大学 CS193P iOS 11 应用程序开发课程  [Developing iOS 11 Apps with Swift By Paul Hegarty](https://itunes.apple.com/cn/podcast/developing-ios-11-apps-with-swift/id1315130780?mt=2) 的课程代码，当前进度为 Lecture 14。
 
 ## 开发环境：
 Xcode 10.1
