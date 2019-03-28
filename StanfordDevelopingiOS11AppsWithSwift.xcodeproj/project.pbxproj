@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		DD24C4FA2247638400F34F77 /* L14DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24C4F92247638400F34F77 /* L14DocumentBrowserViewController.swift */; };
 		DD24C4FC2247639E00F34F77 /* L14EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24C4FB2247639E00F34F77 /* L14EmojiArtDocument.swift */; };
-		DD2A2A3F2227C54E00EB5522 /* Lecture02Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */; };
-		DD2A2A402227C54E00EB5522 /* Lecture02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */; };
-		DD2A2A422227C58200EB5522 /* Lecture02Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */; };
-		DD2A2A442227C62A00EB5522 /* Lecture02Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A432227C62A00EB5522 /* Lecture02Card.swift */; };
-		DD2A2A4B222825DC00EB5522 /* Assignment01Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A4A222825DC00EB5522 /* Assignment01Main.storyboard */; };
-		DD2A2A4D2228267200EB5522 /* Assignment01Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A4C2228267200EB5522 /* Assignment01Card.swift */; };
-		DD2A2A4F2228268200EB5522 /* Assignment01Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A4E2228268200EB5522 /* Assignment01Concentration.swift */; };
-		DD2A2A51222826A600EB5522 /* Assignment01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A50222826A600EB5522 /* Assignment01ViewController.swift */; };
+		DD2A2A3F2227C54E00EB5522 /* L02Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A3C2227C54E00EB5522 /* L02Main.storyboard */; };
+		DD2A2A402227C54E00EB5522 /* L02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A3D2227C54E00EB5522 /* L02ViewController.swift */; };
+		DD2A2A422227C58200EB5522 /* L02Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A412227C58200EB5522 /* L02Concentration.swift */; };
+		DD2A2A442227C62A00EB5522 /* L02Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A432227C62A00EB5522 /* L02Card.swift */; };
+		DD2A2A4B222825DC00EB5522 /* A01Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A4A222825DC00EB5522 /* A01Main.storyboard */; };
+		DD2A2A4D2228267200EB5522 /* A01Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A4C2228267200EB5522 /* A01Card.swift */; };
+		DD2A2A4F2228268200EB5522 /* A01Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A4E2228268200EB5522 /* A01Concentration.swift */; };
+		DD2A2A51222826A600EB5522 /* A01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A2A50222826A600EB5522 /* A01ViewController.swift */; };
 		DD2A2A5322282DFC00EB5522 /* Programming Project 1_ Concentration.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD2A2A5222282DFC00EB5522 /* Programming Project 1_ Concentration.pdf */; };
 		DD2A461322311108007833E9 /* L05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A461222311108007833E9 /* L05ViewController.swift */; };
 		DD2A461522311113007833E9 /* L05Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A461422311113007833E9 /* L05Main.storyboard */; };
@@ -31,11 +31,11 @@
 		DD46ABC522351250009DD24A /* L07Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC422351250009DD24A /* L07Concentration.swift */; };
 		DD46ABC7223512A0009DD24A /* L07Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC6223512A0009DD24A /* L07Card.swift */; };
 		DD46ABC922351810009DD24A /* L07ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABC822351810009DD24A /* L07ConcentrationThemeChooserViewController.swift */; };
-		DD46ABCB22357721009DD24A /* Lecture08Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */; };
-		DD46ABCE22357769009DD24A /* Lecture08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */; };
-		DD46ABD0223577CD009DD24A /* Lecture08PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */; };
-		DD46ABD2223577F3009DD24A /* Lecture08PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */; };
-		DD46ABD422357805009DD24A /* Lecture08PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABD322357805009DD24A /* Lecture08PlayingCardDeck.swift */; };
+		DD46ABCB22357721009DD24A /* L08Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46ABCA22357721009DD24A /* L08Animation.storyboard */; };
+		DD46ABCE22357769009DD24A /* L08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCD22357769009DD24A /* L08ViewController.swift */; };
+		DD46ABD0223577CD009DD24A /* L08PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABCF223577CD009DD24A /* L08PlayingCardView.swift */; };
+		DD46ABD2223577F3009DD24A /* L08PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABD1223577F3009DD24A /* L08PlayingCard.swift */; };
+		DD46ABD422357805009DD24A /* L08PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46ABD322357805009DD24A /* L08PlayingCardDeck.swift */; };
 		DD4C7A2D2232D0A100AD2061 /* Lecture 11 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4C7A2A2232D0A000AD2061 /* Lecture 11 Slides.pdf */; };
 		DD4C7A2E2232D0A100AD2061 /* Lecture 13 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4C7A2B2232D0A100AD2061 /* Lecture 13 Slides.pdf */; };
 		DD4C7A2F2232D0A100AD2061 /* Lecture 12 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4C7A2C2232D0A100AD2061 /* Lecture 12 Slides.pdf */; };
@@ -45,14 +45,14 @@
 		DD59C21522333A0A006BB574 /* L07Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59C21422333A0A006BB574 /* L07Main.storyboard */; };
 		DD5D64EA2235EC230018EEBD /* Lecture09VCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */; };
 		DD5D64EC2235F16A0018EEBD /* Lecture09ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */; };
-		DD5D64EE2235F1870018EEBD /* Lecture09ScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */; };
-		DD5D64F02235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */; };
+		DD5D64EE2235F1870018EEBD /* L09ScrollViewMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64ED2235F1870018EEBD /* L09ScrollViewMain.storyboard */; };
+		DD5D64F02235F1B60018EEBD /* L10MultithreadingMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64EF2235F1B60018EEBD /* L10MultithreadingMain.storyboard */; };
 		DD5D64F22235F36B0018EEBD /* Lecture10ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */; };
 		DD5D64F42235F9D10018EEBD /* Lecture09DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */; };
 		DD5D64F922363FF00018EEBD /* Lecture10CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */; };
 		DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */; };
 		DD5D64FF22365BF70018EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D64FE22365BF70018EEBD /* Main.storyboard */; };
-		DD5D650222365E220018EEBD /* L10Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D650122365E220018EEBD /* L10Main.storyboard */; };
+		DD5D650222365E220018EEBD /* L10AutolayoutMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D650122365E220018EEBD /* L10AutolayoutMain.storyboard */; };
 		DD5FD247223DEB74002325E4 /* L14Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5FD246223DEB74002325E4 /* L14Main.storyboard */; };
 		DD5FD250223DEC1B002325E4 /* L14EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD248223DEC1B002325E4 /* L14EmojiArtViewController.swift */; };
 		DD5FD251223DEC1C002325E4 /* L14TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FD249223DEC1B002325E4 /* L14TextFieldCollectionViewCell.swift */; };
@@ -65,7 +65,7 @@
 		DD64025222375B5E0031E20C /* Lecture09ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */; };
 		DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025322375B720031E20C /* Lecture09Concentration.swift */; };
 		DD64025622375B7D0031E20C /* Lecture09Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64025522375B7D0031E20C /* Lecture09Card.swift */; };
-		DD64025822375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */; };
+		DD64025822375CE20031E20C /* L09ViewControllerLifecycleMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64025722375CE20031E20C /* L09ViewControllerLifecycleMain.storyboard */; };
 		DD64025F2237802E0031E20C /* L11Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64025E2237802E0031E20C /* L11Main.storyboard */; };
 		DD6402612237866C0031E20C /* L11EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6402602237866C0031E20C /* L11EmojiArtViewController.swift */; };
 		DD640263223787A50031E20C /* L11EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD640262223787A50031E20C /* L11EmojiArtView.swift */; };
@@ -88,17 +88,16 @@
 		DD726749223D37F8008D12D1 /* L13EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD726743223D37F8008D12D1 /* L13EmojiArtView.swift */; };
 		DD72674A223D37F8008D12D1 /* L13EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD726744223D37F8008D12D1 /* L13EmojiArtDocumentTableViewController.swift */; };
 		DD72674B223D37F8008D12D1 /* L13EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD726745223D37F8008D12D1 /* L13EmojiArtViewController.swift */; };
-		DD773B3322267E4A00B86763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B3222267E4A00B86763 /* AppDelegate.swift */; };
+		DD773B3322267E4A00B86763 /* L14AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B3222267E4A00B86763 /* L14AppDelegate.swift */; };
 		DD773B3A22267E4B00B86763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD773B3922267E4B00B86763 /* Assets.xcassets */; };
 		DD773B3D22267E4B00B86763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B3B22267E4B00B86763 /* LaunchScreen.storyboard */; };
-		DD773B47222680C100B86763 /* Lecture17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B46222680C100B86763 /* Lecture17ViewController.swift */; };
-		DD773B4B222698D900B86763 /* Lecture17.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B4A222698D900B86763 /* Lecture17.storyboard */; };
-		DD773B4E2226992B00B86763 /* Lecture01Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B4D2226992B00B86763 /* Lecture01Main.storyboard */; };
-		DD773B502226994200B86763 /* Lecture01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B4F2226994200B86763 /* Lecture01ViewController.swift */; };
-		DD78DDB822290AEA008436C3 /* Lecture03Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */; };
-		DD78DDBA22290E81008436C3 /* Lecture03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */; };
-		DD78DDBC22290E8D008436C3 /* Lecture03Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */; };
-		DD78DDBE22290EA1008436C3 /* Lecture03Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */; };
+		DD773B4B222698D900B86763 /* L17Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B4A222698D900B86763 /* L17Main.storyboard */; };
+		DD773B4E2226992B00B86763 /* L01Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD773B4D2226992B00B86763 /* L01Main.storyboard */; };
+		DD773B502226994200B86763 /* L01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD773B4F2226994200B86763 /* L01ViewController.swift */; };
+		DD78DDB822290AEA008436C3 /* L03Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDB722290AEA008436C3 /* L03Main.storyboard */; };
+		DD78DDBA22290E81008436C3 /* L03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDB922290E81008436C3 /* L03ViewController.swift */; };
+		DD78DDBC22290E8D008436C3 /* L03Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBB22290E8D008436C3 /* L03Card.swift */; };
+		DD78DDBE22290EA1008436C3 /* L03Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDBD22290EA1008436C3 /* L03Concentration.swift */; };
 		DD78DDC122292790008436C3 /* Lecture 3 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */; };
 		DD78DDC322292B4F008436C3 /* Lecture 2 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDC222292B4F008436C3 /* Lecture 2 Slides.pdf */; };
 		DD78DDC522292B67008436C3 /* Lecture 1 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDC422292B67008436C3 /* Lecture 1 Slides.pdf */; };
@@ -107,33 +106,33 @@
 		DD78DDCC22292E15008436C3 /* L04Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDCB22292E15008436C3 /* L04Concentration.swift */; };
 		DD78DDCE22292E42008436C3 /* Lecture 4 Slides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD78DDCD22292E42008436C3 /* Lecture 4 Slides.pdf */; };
 		DD78DDD022295792008436C3 /* L04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78DDCF22295792008436C3 /* L04ViewController.swift */; };
+		DD791E4A224931D100C0A160 /* L16DocumentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E49224931D100C0A160 /* L16DocumentInfoViewController.swift */; };
 		DD8C509C2237579400F1B56B /* L10ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509B2237579400F1B56B /* L10ConcentrationViewController.swift */; };
 		DD8C509E223757A900F1B56B /* L10Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509D223757A900F1B56B /* L10Concentration.swift */; };
 		DD8C50A0223757C500F1B56B /* L10Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C509F223757C500F1B56B /* L10Card.swift */; };
-		DD98B3B4223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98B3B3223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift */; };
+		DD98B3B4223BCFED0093654F /* L12EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98B3B3223BCFED0093654F /* L12EmojiCollectionViewCell.swift */; };
 		DD98B3C9223BD8A00093654F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD98B3C8223BD8A00093654F /* README.md */; };
 		DD98B3CB223BD8D00093654F /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD98B3CA223BD8CF0093654F /* oval.jpg */; };
 		DDCE899E223A99CD000017DE /* L12EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE899D223A99CD000017DE /* L12EmojiArtDocumentTableViewController.swift */; };
-		DDCE89A4223A9A4A000017DE /* Lecture12Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE89A3223A9A4A000017DE /* Lecture12Utility.swift */; };
-		DDCE89A7223A9C85000017DE /* Lecture12EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE89A6223A9C85000017DE /* Lecture12EmojiArtViewController.swift */; };
+		DDCE89A4223A9A4A000017DE /* L12Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE89A3223A9A4A000017DE /* L12Utility.swift */; };
+		DDCE89A7223A9C85000017DE /* L12EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE89A6223A9C85000017DE /* L12EmojiArtViewController.swift */; };
 		DDCE89A9223A9CEF000017DE /* L12EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE89A8223A9CEF000017DE /* L12EmojiArtView.swift */; };
 		DDCE89AD223AC6C3000017DE /* L12Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCE89AC223AC6C3000017DE /* L12Main.storyboard */; };
-		DDCF7F5D224101A8005FC7E5 /* Lecture15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCF7F5C224101A8005FC7E5 /* Lecture15.storyboard */; };
-		DDCF7F81224103C9005FC7E5 /* Lecture16.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCF7F80224103C9005FC7E5 /* Lecture16.storyboard */; };
-		DDFA05772238E43100D979B5 /* Lecture08CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */; };
+		DDCF7F81224103C9005FC7E5 /* L16Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCF7F80224103C9005FC7E5 /* L16Main.storyboard */; };
+		DDFA05772238E43100D979B5 /* L08CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA05762238E43100D979B5 /* L08CardBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD24C4F92247638400F34F77 /* L14DocumentBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L14DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		DD24C4FB2247639E00F34F77 /* L14EmojiArtDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L14EmojiArtDocument.swift; sourceTree = "<group>"; };
-		DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lecture02Main.storyboard; sourceTree = "<group>"; };
-		DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture02ViewController.swift; sourceTree = "<group>"; };
-		DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture02Concentration.swift; sourceTree = "<group>"; };
-		DD2A2A432227C62A00EB5522 /* Lecture02Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture02Card.swift; sourceTree = "<group>"; };
-		DD2A2A4A222825DC00EB5522 /* Assignment01Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignment01Main.storyboard; sourceTree = "<group>"; };
-		DD2A2A4C2228267200EB5522 /* Assignment01Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment01Card.swift; sourceTree = "<group>"; };
-		DD2A2A4E2228268200EB5522 /* Assignment01Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment01Concentration.swift; sourceTree = "<group>"; };
-		DD2A2A50222826A600EB5522 /* Assignment01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment01ViewController.swift; sourceTree = "<group>"; };
+		DD2A2A3C2227C54E00EB5522 /* L02Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = L02Main.storyboard; sourceTree = "<group>"; };
+		DD2A2A3D2227C54E00EB5522 /* L02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L02ViewController.swift; sourceTree = "<group>"; };
+		DD2A2A412227C58200EB5522 /* L02Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L02Concentration.swift; sourceTree = "<group>"; };
+		DD2A2A432227C62A00EB5522 /* L02Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L02Card.swift; sourceTree = "<group>"; };
+		DD2A2A4A222825DC00EB5522 /* A01Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = A01Main.storyboard; sourceTree = "<group>"; };
+		DD2A2A4C2228267200EB5522 /* A01Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A01Card.swift; sourceTree = "<group>"; };
+		DD2A2A4E2228268200EB5522 /* A01Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A01Concentration.swift; sourceTree = "<group>"; };
+		DD2A2A50222826A600EB5522 /* A01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A01ViewController.swift; sourceTree = "<group>"; };
 		DD2A2A5222282DFC00EB5522 /* Programming Project 1_ Concentration.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Programming Project 1_ Concentration.pdf"; sourceTree = "<group>"; };
 		DD2A461222311108007833E9 /* L05ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L05ViewController.swift; sourceTree = "<group>"; };
 		DD2A461422311113007833E9 /* L05Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L05Main.storyboard; sourceTree = "<group>"; };
@@ -150,12 +149,12 @@
 		DD46ABC422351250009DD24A /* L07Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L07Concentration.swift; sourceTree = "<group>"; };
 		DD46ABC6223512A0009DD24A /* L07Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L07Card.swift; sourceTree = "<group>"; };
 		DD46ABC822351810009DD24A /* L07ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L07ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
-		DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture08Animation.storyboard; sourceTree = "<group>"; };
+		DD46ABCA22357721009DD24A /* L08Animation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L08Animation.storyboard; sourceTree = "<group>"; };
 		DD46ABCC22357739009DD24A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08ViewController.swift; sourceTree = "<group>"; };
-		DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08PlayingCardView.swift; sourceTree = "<group>"; };
-		DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08PlayingCard.swift; sourceTree = "<group>"; };
-		DD46ABD322357805009DD24A /* Lecture08PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08PlayingCardDeck.swift; sourceTree = "<group>"; };
+		DD46ABCD22357769009DD24A /* L08ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L08ViewController.swift; sourceTree = "<group>"; };
+		DD46ABCF223577CD009DD24A /* L08PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L08PlayingCardView.swift; sourceTree = "<group>"; };
+		DD46ABD1223577F3009DD24A /* L08PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L08PlayingCard.swift; sourceTree = "<group>"; };
+		DD46ABD322357805009DD24A /* L08PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L08PlayingCardDeck.swift; sourceTree = "<group>"; };
 		DD48B4BE2236638C00A58653 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD4C7A2A2232D0A000AD2061 /* Lecture 11 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 11 Slides.pdf"; sourceTree = "<group>"; };
 		DD4C7A2B2232D0A100AD2061 /* Lecture 13 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 13 Slides.pdf"; sourceTree = "<group>"; };
@@ -167,15 +166,15 @@
 		DD59C21422333A0A006BB574 /* L07Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L07Main.storyboard; sourceTree = "<group>"; };
 		DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09VCLViewController.swift; sourceTree = "<group>"; };
 		DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ImageViewController.swift; sourceTree = "<group>"; };
-		DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture09ScrollView.storyboard; sourceTree = "<group>"; };
-		DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture10MultithreadingMain.storyboard; sourceTree = "<group>"; };
+		DD5D64ED2235F1870018EEBD /* L09ScrollViewMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L09ScrollViewMain.storyboard; sourceTree = "<group>"; };
+		DD5D64EF2235F1B60018EEBD /* L10MultithreadingMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L10MultithreadingMain.storyboard; sourceTree = "<group>"; };
 		DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10ImageViewController.swift; sourceTree = "<group>"; };
 		DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09DemoURL.swift; sourceTree = "<group>"; };
 		DD5D64F722363C240018EEBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10CassiniViewController.swift; sourceTree = "<group>"; };
 		DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture10DemoURLs.swift; sourceTree = "<group>"; };
 		DD5D64FE22365BF70018EEBD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DD5D650122365E220018EEBD /* L10Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L10Main.storyboard; sourceTree = "<group>"; };
+		DD5D650122365E220018EEBD /* L10AutolayoutMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L10AutolayoutMain.storyboard; sourceTree = "<group>"; };
 		DD5FD246223DEB74002325E4 /* L14Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L14Main.storyboard; sourceTree = "<group>"; };
 		DD5FD248223DEC1B002325E4 /* L14EmojiArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L14EmojiArtViewController.swift; sourceTree = "<group>"; };
 		DD5FD249223DEC1B002325E4 /* L14TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L14TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -189,7 +188,7 @@
 		DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09ConcentrationViewController.swift; sourceTree = "<group>"; };
 		DD64025322375B720031E20C /* Lecture09Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09Concentration.swift; sourceTree = "<group>"; };
 		DD64025522375B7D0031E20C /* Lecture09Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture09Card.swift; sourceTree = "<group>"; };
-		DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture09ViewControllerLifecycle.storyboard; sourceTree = "<group>"; };
+		DD64025722375CE20031E20C /* L09ViewControllerLifecycleMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L09ViewControllerLifecycleMain.storyboard; sourceTree = "<group>"; };
 		DD64025D22375D9B0031E20C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD64025E2237802E0031E20C /* L11Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L11Main.storyboard; sourceTree = "<group>"; };
 		DD6402602237866C0031E20C /* L11EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L11EmojiArtViewController.swift; sourceTree = "<group>"; };
@@ -216,20 +215,19 @@
 		DD726744223D37F8008D12D1 /* L13EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L13EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
 		DD726745223D37F8008D12D1 /* L13EmojiArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L13EmojiArtViewController.swift; sourceTree = "<group>"; };
 		DD773B2F22267E4A00B86763 /* StanfordDevelopingiOS11AppsWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordDevelopingiOS11AppsWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD773B3222267E4A00B86763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD773B3222267E4A00B86763 /* L14AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L14AppDelegate.swift; sourceTree = "<group>"; };
 		DD773B3922267E4B00B86763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD773B3C22267E4B00B86763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD773B3E22267E4B00B86763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD773B4422267E7D00B86763 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD773B4522267E8400B86763 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DD773B46222680C100B86763 /* Lecture17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture17ViewController.swift; sourceTree = "<group>"; };
-		DD773B4A222698D900B86763 /* Lecture17.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture17.storyboard; sourceTree = "<group>"; };
-		DD773B4D2226992B00B86763 /* Lecture01Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture01Main.storyboard; sourceTree = "<group>"; };
-		DD773B4F2226994200B86763 /* Lecture01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture01ViewController.swift; sourceTree = "<group>"; };
-		DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture03Main.storyboard; sourceTree = "<group>"; };
-		DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03ViewController.swift; sourceTree = "<group>"; };
-		DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Card.swift; sourceTree = "<group>"; };
-		DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture03Concentration.swift; sourceTree = "<group>"; };
+		DD773B4A222698D900B86763 /* L17Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L17Main.storyboard; sourceTree = "<group>"; };
+		DD773B4D2226992B00B86763 /* L01Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L01Main.storyboard; sourceTree = "<group>"; };
+		DD773B4F2226994200B86763 /* L01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L01ViewController.swift; sourceTree = "<group>"; };
+		DD78DDB722290AEA008436C3 /* L03Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L03Main.storyboard; sourceTree = "<group>"; };
+		DD78DDB922290E81008436C3 /* L03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L03ViewController.swift; sourceTree = "<group>"; };
+		DD78DDBB22290E8D008436C3 /* L03Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L03Card.swift; sourceTree = "<group>"; };
+		DD78DDBD22290EA1008436C3 /* L03Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L03Concentration.swift; sourceTree = "<group>"; };
 		DD78DDBF22291756008436C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 3 Slides.pdf"; sourceTree = "<group>"; };
 		DD78DDC222292B4F008436C3 /* Lecture 2 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 2 Slides.pdf"; sourceTree = "<group>"; };
@@ -240,23 +238,24 @@
 		DD78DDCB22292E15008436C3 /* L04Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L04Concentration.swift; sourceTree = "<group>"; };
 		DD78DDCD22292E42008436C3 /* Lecture 4 Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lecture 4 Slides.pdf"; sourceTree = "<group>"; };
 		DD78DDCF22295792008436C3 /* L04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L04ViewController.swift; sourceTree = "<group>"; };
+		DD791E4822490C1100C0A160 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD791E49224931D100C0A160 /* L16DocumentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L16DocumentInfoViewController.swift; sourceTree = "<group>"; };
 		DD8C509922373F3D00F1B56B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD8C509B2237579400F1B56B /* L10ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10ConcentrationViewController.swift; sourceTree = "<group>"; };
 		DD8C509D223757A900F1B56B /* L10Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10Concentration.swift; sourceTree = "<group>"; };
 		DD8C509F223757C500F1B56B /* L10Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10Card.swift; sourceTree = "<group>"; };
-		DD98B3B3223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture12EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD98B3B3223BCFED0093654F /* L12EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		DD98B3C8223BD8A00093654F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD98B3CA223BD8CF0093654F /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 		DDCE899D223A99CD000017DE /* L12EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
-		DDCE89A3223A9A4A000017DE /* Lecture12Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture12Utility.swift; sourceTree = "<group>"; };
+		DDCE89A3223A9A4A000017DE /* L12Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12Utility.swift; sourceTree = "<group>"; };
 		DDCE89A5223A9BE3000017DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DDCE89A6223A9C85000017DE /* Lecture12EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture12EmojiArtViewController.swift; sourceTree = "<group>"; };
+		DDCE89A6223A9C85000017DE /* L12EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12EmojiArtViewController.swift; sourceTree = "<group>"; };
 		DDCE89A8223A9CEF000017DE /* L12EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12EmojiArtView.swift; sourceTree = "<group>"; };
 		DDCE89AC223AC6C3000017DE /* L12Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L12Main.storyboard; sourceTree = "<group>"; };
-		DDCF7F5C224101A8005FC7E5 /* Lecture15.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture15.storyboard; sourceTree = "<group>"; };
-		DDCF7F80224103C9005FC7E5 /* Lecture16.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lecture16.storyboard; sourceTree = "<group>"; };
+		DDCF7F80224103C9005FC7E5 /* L16Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = L16Main.storyboard; sourceTree = "<group>"; };
 		DDCF7F8222410F32005FC7E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08CardBehavior.swift; sourceTree = "<group>"; };
+		DDFA05762238E43100D979B5 /* L08CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L08CardBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,17 +269,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD2A2A3A2227C54E00EB5522 /* Lecture02 */ = {
+		DD2A2A3A2227C54E00EB5522 /* Lecture02MVC */ = {
 			isa = PBXGroup;
 			children = (
 				DD726738223D1756008D12D1 /* README.md */,
 				DD78DDC222292B4F008436C3 /* Lecture 2 Slides.pdf */,
-				DD2A2A3C2227C54E00EB5522 /* Lecture02Main.storyboard */,
-				DD2A2A3D2227C54E00EB5522 /* Lecture02ViewController.swift */,
-				DD2A2A412227C58200EB5522 /* Lecture02Concentration.swift */,
-				DD2A2A432227C62A00EB5522 /* Lecture02Card.swift */,
+				DD2A2A3C2227C54E00EB5522 /* L02Main.storyboard */,
+				DD2A2A3D2227C54E00EB5522 /* L02ViewController.swift */,
+				DD2A2A412227C58200EB5522 /* L02Concentration.swift */,
+				DD2A2A432227C62A00EB5522 /* L02Card.swift */,
 			);
-			path = Lecture02;
+			path = Lecture02MVC;
 			sourceTree = "<group>";
 		};
 		DD2A2A49222825A200EB5522 /* Assignment01 */ = {
@@ -288,10 +287,10 @@
 			children = (
 				DD64025D22375D9B0031E20C /* README.md */,
 				DD2A2A5222282DFC00EB5522 /* Programming Project 1_ Concentration.pdf */,
-				DD2A2A4A222825DC00EB5522 /* Assignment01Main.storyboard */,
-				DD2A2A50222826A600EB5522 /* Assignment01ViewController.swift */,
-				DD2A2A4E2228268200EB5522 /* Assignment01Concentration.swift */,
-				DD2A2A4C2228267200EB5522 /* Assignment01Card.swift */,
+				DD2A2A4A222825DC00EB5522 /* A01Main.storyboard */,
+				DD2A2A50222826A600EB5522 /* A01ViewController.swift */,
+				DD2A2A4E2228268200EB5522 /* A01Concentration.swift */,
+				DD2A2A4C2228267200EB5522 /* A01Card.swift */,
 			);
 			path = Assignment01;
 			sourceTree = "<group>";
@@ -315,12 +314,12 @@
 			children = (
 				DD46ABCC22357739009DD24A /* README.md */,
 				DD6AA0FB2230DD6A00155EA4 /* Lecture 8 Slides.pdf */,
-				DD46ABCA22357721009DD24A /* Lecture08Animation.storyboard */,
-				DD46ABCD22357769009DD24A /* Lecture08ViewController.swift */,
-				DDFA05762238E43100D979B5 /* Lecture08CardBehavior.swift */,
-				DD46ABCF223577CD009DD24A /* Lecture08PlayingCardView.swift */,
-				DD46ABD322357805009DD24A /* Lecture08PlayingCardDeck.swift */,
-				DD46ABD1223577F3009DD24A /* Lecture08PlayingCard.swift */,
+				DD46ABCA22357721009DD24A /* L08Animation.storyboard */,
+				DD46ABCD22357769009DD24A /* L08ViewController.swift */,
+				DDFA05762238E43100D979B5 /* L08CardBehavior.swift */,
+				DD46ABCF223577CD009DD24A /* L08PlayingCardView.swift */,
+				DD46ABD322357805009DD24A /* L08PlayingCardDeck.swift */,
+				DD46ABD1223577F3009DD24A /* L08PlayingCard.swift */,
 			);
 			path = Lecture08Animation;
 			sourceTree = "<group>";
@@ -329,7 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				DD98B3C8223BD8A00093654F /* README.md */,
-				DD5D64ED2235F1870018EEBD /* Lecture09ScrollView.storyboard */,
+				DD5D64ED2235F1870018EEBD /* L09ScrollViewMain.storyboard */,
 				DD5D64EB2235F16A0018EEBD /* Lecture09ImageViewController.swift */,
 				DD5D64F32235F9D10018EEBD /* Lecture09DemoURL.swift */,
 				DD98B3CA223BD8CF0093654F /* oval.jpg */,
@@ -342,7 +341,7 @@
 			children = (
 				DD5D64F722363C240018EEBD /* README.md */,
 				DD6AA0F92230DD6900155EA4 /* Lecture 10 Slides.pdf */,
-				DD5D64EF2235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard */,
+				DD5D64EF2235F1B60018EEBD /* L10MultithreadingMain.storyboard */,
 				DD5D64F822363FF00018EEBD /* Lecture10CassiniViewController.swift */,
 				DD5D64F12235F36B0018EEBD /* Lecture10ImageViewController.swift */,
 				DD5D64FA223641020018EEBD /* Lecture10DemoURLs.swift */,
@@ -373,9 +372,9 @@
 				DDCE899D223A99CD000017DE /* L12EmojiArtDocumentTableViewController.swift */,
 				DDCE89A8223A9CEF000017DE /* L12EmojiArtView.swift */,
 				DD726739223D2CFE008D12D1 /* L12EmojiArtView+Gestures.swift */,
-				DDCE89A6223A9C85000017DE /* Lecture12EmojiArtViewController.swift */,
-				DD98B3B3223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift */,
-				DDCE89A3223A9A4A000017DE /* Lecture12Utility.swift */,
+				DDCE89A6223A9C85000017DE /* L12EmojiArtViewController.swift */,
+				DD98B3B3223BCFED0093654F /* L12EmojiCollectionViewCell.swift */,
+				DDCE89A3223A9A4A000017DE /* L12Utility.swift */,
 			);
 			path = Lecture12DragAndDropTableAndCollectionView;
 			sourceTree = "<group>";
@@ -397,31 +396,31 @@
 			path = Lecture13TextField;
 			sourceTree = "<group>";
 		};
-		DD4C7A272232CB1100AD2061 /* Lecture14UIDocument */ = {
+		DD4C7A272232CB1100AD2061 /* Lecture14UIDocument&Delegate */ = {
 			isa = PBXGroup;
 			children = (
 				DDCF7F8222410F32005FC7E5 /* README.md */,
 				DD6AA0FA2230DD6A00155EA4 /* Lecture 14 Slides.pdf */,
+				DD773B3222267E4A00B86763 /* L14AppDelegate.swift */,
 				DD5FD246223DEB74002325E4 /* L14Main.storyboard */,
-				DD773B3222267E4A00B86763 /* AppDelegate.swift */,
 				DD24C4F92247638400F34F77 /* L14DocumentBrowserViewController.swift */,
+				DD24C4FB2247639E00F34F77 /* L14EmojiArtDocument.swift */,
 				DD5FD248223DEC1B002325E4 /* L14EmojiArtViewController.swift */,
 				DD5FD24E223DEC1B002325E4 /* L14EmojiArtView.swift */,
-				DD5FD24A223DEC1B002325E4 /* L14EmojiArtView+Gestures.swift */,
 				DD5FD258223DF7D6002325E4 /* L14EmojiArt.swift */,
-				DD24C4FB2247639E00F34F77 /* L14EmojiArtDocument.swift */,
+				DD5FD24A223DEC1B002325E4 /* L14EmojiArtView+Gestures.swift */,
 				DD5FD24D223DEC1B002325E4 /* L14EmojiCollectionViewCell.swift */,
 				DD5FD249223DEC1B002325E4 /* L14TextFieldCollectionViewCell.swift */,
 				DD5FD24F223DEC1B002325E4 /* L14Utility.swift */,
 			);
-			path = Lecture14UIDocument;
+			path = "Lecture14UIDocument&Delegate";
 			sourceTree = "<group>";
 		};
 		DD4C7A282232CB1600AD2061 /* Lecture15 */ = {
 			isa = PBXGroup;
 			children = (
+				DD791E4822490C1100C0A160 /* README.md */,
 				DD6AA0FC2230DD6A00155EA4 /* Lecture 15 Slides.pdf */,
-				DDCF7F5C224101A8005FC7E5 /* Lecture15.storyboard */,
 			);
 			path = Lecture15;
 			sourceTree = "<group>";
@@ -430,7 +429,8 @@
 			isa = PBXGroup;
 			children = (
 				DD6AA0F72230DD6900155EA4 /* Lecture 16 Slides.pdf */,
-				DDCF7F80224103C9005FC7E5 /* Lecture16.storyboard */,
+				DDCF7F80224103C9005FC7E5 /* L16Main.storyboard */,
+				DD791E49224931D100C0A160 /* L16DocumentInfoViewController.swift */,
 			);
 			path = Lecture16;
 			sourceTree = "<group>";
@@ -453,7 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				DD48B4BE2236638C00A58653 /* README.md */,
-				DD5D650122365E220018EEBD /* L10Main.storyboard */,
+				DD5D650122365E220018EEBD /* L10AutolayoutMain.storyboard */,
 				DD8C509B2237579400F1B56B /* L10ConcentrationViewController.swift */,
 				DD8C509D223757A900F1B56B /* L10Concentration.swift */,
 				DD8C509F223757C500F1B56B /* L10Card.swift */,
@@ -485,8 +485,8 @@
 				DD773B3E22267E4B00B86763 /* Info.plist */,
 				DD773B3B22267E4B00B86763 /* LaunchScreen.storyboard */,
 				DD5D64FE22365BF70018EEBD /* Main.storyboard */,
-				DD773B4C222698EC00B86763 /* Lecture01 */,
-				DD2A2A3A2227C54E00EB5522 /* Lecture02 */,
+				DD773B4C222698EC00B86763 /* Lecture01ConcentrationDemo */,
+				DD2A2A3A2227C54E00EB5522 /* Lecture02MVC */,
 				DD78DDB422290A50008436C3 /* Lecture03 */,
 				DD78DDB522290A61008436C3 /* Lecture04 */,
 				DD2A2A49222825A200EB5522 /* Assignment01 */,
@@ -501,7 +501,7 @@
 				DD4C7A242232CA6600AD2061 /* Lecture11DragAndDropTableAndCollectionView */,
 				DD4C7A252232CAED00AD2061 /* Lecture12DragAndDropTableAndCollectionView */,
 				DD4C7A262232CB0900AD2061 /* Lecture13TextField */,
-				DD4C7A272232CB1100AD2061 /* Lecture14UIDocument */,
+				DD4C7A272232CB1100AD2061 /* Lecture14UIDocument&Delegate */,
 				DD4C7A282232CB1600AD2061 /* Lecture15 */,
 				DD4C7A292232CB1C00AD2061 /* Lecture16 */,
 				DD773B48222680C700B86763 /* Lecture17 */,
@@ -512,22 +512,21 @@
 		DD773B48222680C700B86763 /* Lecture17 */ = {
 			isa = PBXGroup;
 			children = (
-				DD773B46222680C100B86763 /* Lecture17ViewController.swift */,
-				DD773B4A222698D900B86763 /* Lecture17.storyboard */,
+				DD773B4A222698D900B86763 /* L17Main.storyboard */,
 			);
 			path = Lecture17;
 			sourceTree = "<group>";
 		};
-		DD773B4C222698EC00B86763 /* Lecture01 */ = {
+		DD773B4C222698EC00B86763 /* Lecture01ConcentrationDemo */ = {
 			isa = PBXGroup;
 			children = (
 				DD773B4422267E7D00B86763 /* README.md */,
 				DD78DDC422292B67008436C3 /* Lecture 1 Slides.pdf */,
-				DD773B4D2226992B00B86763 /* Lecture01Main.storyboard */,
-				DD773B4F2226994200B86763 /* Lecture01ViewController.swift */,
+				DD773B4D2226992B00B86763 /* L01Main.storyboard */,
+				DD773B4F2226994200B86763 /* L01ViewController.swift */,
 				DD6AA0F12230D0B500155EA4 /* Reading 1_ Intro to Swift.pdf */,
 			);
-			path = Lecture01;
+			path = Lecture01ConcentrationDemo;
 			sourceTree = "<group>";
 		};
 		DD78DDB422290A50008436C3 /* Lecture03 */ = {
@@ -536,10 +535,10 @@
 				DD78DDBF22291756008436C3 /* README.md */,
 				DD78DDC022292790008436C3 /* Lecture 3 Slides.pdf */,
 				DD6AA0F22230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf */,
-				DD78DDB722290AEA008436C3 /* Lecture03Main.storyboard */,
-				DD78DDB922290E81008436C3 /* Lecture03ViewController.swift */,
-				DD78DDBD22290EA1008436C3 /* Lecture03Concentration.swift */,
-				DD78DDBB22290E8D008436C3 /* Lecture03Card.swift */,
+				DD78DDB722290AEA008436C3 /* L03Main.storyboard */,
+				DD78DDB922290E81008436C3 /* L03ViewController.swift */,
+				DD78DDBD22290EA1008436C3 /* L03Concentration.swift */,
+				DD78DDBB22290E8D008436C3 /* L03Card.swift */,
 			);
 			path = Lecture03;
 			sourceTree = "<group>";
@@ -575,7 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				DD64024E22375B120031E20C /* README.md */,
-				DD64025722375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard */,
+				DD64025722375CE20031E20C /* L09ViewControllerLifecycleMain.storyboard */,
 				DD5D64E92235EC230018EEBD /* Lecture09VCLViewController.swift */,
 				DD64024F22375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift */,
 				DD64025122375B5E0031E20C /* Lecture09ConcentrationViewController.swift */,
@@ -643,20 +642,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2A2A3F2227C54E00EB5522 /* Lecture02Main.storyboard in Resources */,
+				DD2A2A3F2227C54E00EB5522 /* L02Main.storyboard in Resources */,
 				DD6AA1022230DD6A00155EA4 /* Lecture 8 Slides.pdf in Resources */,
 				DD6AA0F52230D0B500155EA4 /* Reading 2_ Intro to Swift.pdf in Resources */,
 				DDCE89AD223AC6C3000017DE /* L12Main.storyboard in Resources */,
 				DD78DDC522292B67008436C3 /* Lecture 1 Slides.pdf in Resources */,
 				DD2A461522311113007833E9 /* L05Main.storyboard in Resources */,
-				DD64025822375CE20031E20C /* Lecture09ViewControllerLifecycle.storyboard in Resources */,
+				DD64025822375CE20031E20C /* L09ViewControllerLifecycleMain.storyboard in Resources */,
 				DD4C7A2E2232D0A100AD2061 /* Lecture 13 Slides.pdf in Resources */,
 				DD78DDC122292790008436C3 /* Lecture 3 Slides.pdf in Resources */,
 				DD2A2A5322282DFC00EB5522 /* Programming Project 1_ Concentration.pdf in Resources */,
 				DD78DDCE22292E42008436C3 /* Lecture 4 Slides.pdf in Resources */,
-				DD5D64EE2235F1870018EEBD /* Lecture09ScrollView.storyboard in Resources */,
-				DD773B4B222698D900B86763 /* Lecture17.storyboard in Resources */,
-				DDCF7F5D224101A8005FC7E5 /* Lecture15.storyboard in Resources */,
+				DD5D64EE2235F1870018EEBD /* L09ScrollViewMain.storyboard in Resources */,
+				DD773B4B222698D900B86763 /* L17Main.storyboard in Resources */,
 				DD773B3D22267E4B00B86763 /* LaunchScreen.storyboard in Resources */,
 				DD6AA1002230DD6A00155EA4 /* Lecture 10 Slides.pdf in Resources */,
 				DD6AA0FE2230DD6A00155EA4 /* Lecture 16 Slides.pdf in Resources */,
@@ -670,23 +668,23 @@
 				DD98B3C9223BD8A00093654F /* README.md in Resources */,
 				DD773B3A22267E4B00B86763 /* Assets.xcassets in Resources */,
 				DD78DDC322292B4F008436C3 /* Lecture 2 Slides.pdf in Resources */,
-				DD2A2A4B222825DC00EB5522 /* Assignment01Main.storyboard in Resources */,
-				DD46ABCB22357721009DD24A /* Lecture08Animation.storyboard in Resources */,
+				DD2A2A4B222825DC00EB5522 /* A01Main.storyboard in Resources */,
+				DD46ABCB22357721009DD24A /* L08Animation.storyboard in Resources */,
 				DD5FD247223DEB74002325E4 /* L14Main.storyboard in Resources */,
 				DD72673D223D3449008D12D1 /* L13Main.storyboard in Resources */,
 				DD50B11A222FBB7800F01BEE /* Lecture 6 Slides.pdf in Resources */,
 				DD59C21522333A0A006BB574 /* L07Main.storyboard in Resources */,
-				DDCF7F81224103C9005FC7E5 /* Lecture16.storyboard in Resources */,
+				DDCF7F81224103C9005FC7E5 /* L16Main.storyboard in Resources */,
 				DD50B116222FBA1C00F01BEE /* Lecture 5 Slides.pdf in Resources */,
-				DD78DDB822290AEA008436C3 /* Lecture03Main.storyboard in Resources */,
+				DD78DDB822290AEA008436C3 /* L03Main.storyboard in Resources */,
 				DD4C7A2F2232D0A100AD2061 /* Lecture 12 Slides.pdf in Resources */,
-				DD773B4E2226992B00B86763 /* Lecture01Main.storyboard in Resources */,
+				DD773B4E2226992B00B86763 /* L01Main.storyboard in Resources */,
 				DD6AA1032230DD6A00155EA4 /* Lecture 15 Slides.pdf in Resources */,
 				DD78DDC822292DF7008436C3 /* L04Main.storyboard in Resources */,
 				DD6AA0F32230D0B500155EA4 /* Reading 3_ Finishing Off Swift.pdf in Resources */,
-				DD5D64F02235F1B60018EEBD /* Lecture10MultithreadingMain.storyboard in Resources */,
+				DD5D64F02235F1B60018EEBD /* L10MultithreadingMain.storyboard in Resources */,
 				DD6AA0FF2230DD6A00155EA4 /* Lecture 7 Slides.pdf in Resources */,
-				DD5D650222365E220018EEBD /* L10Main.storyboard in Resources */,
+				DD5D650222365E220018EEBD /* L10AutolayoutMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,20 +699,20 @@
 				DD2A461322311108007833E9 /* L05ViewController.swift in Sources */,
 				DD78DDD022295792008436C3 /* L04ViewController.swift in Sources */,
 				DD46ABC2223507B3009DD24A /* L07ConcentrationViewController.swift in Sources */,
-				DD2A2A51222826A600EB5522 /* Assignment01ViewController.swift in Sources */,
+				DD2A2A51222826A600EB5522 /* A01ViewController.swift in Sources */,
 				DD64026522378C880031E20C /* Lecture11Utility.swift in Sources */,
 				DDCE899E223A99CD000017DE /* L12EmojiArtDocumentTableViewController.swift in Sources */,
 				DD8C509E223757A900F1B56B /* L10Concentration.swift in Sources */,
-				DD46ABCE22357769009DD24A /* Lecture08ViewController.swift in Sources */,
-				DDCE89A7223A9C85000017DE /* Lecture12EmojiArtViewController.swift in Sources */,
-				DD98B3B4223BCFED0093654F /* Lecture12EmojiCollectionViewCell.swift in Sources */,
+				DD46ABCE22357769009DD24A /* L08ViewController.swift in Sources */,
+				DDCE89A7223A9C85000017DE /* L12EmojiArtViewController.swift in Sources */,
+				DD98B3B4223BCFED0093654F /* L12EmojiCollectionViewCell.swift in Sources */,
 				DD5FD255223DEC1C002325E4 /* L14EmojiCollectionViewCell.swift in Sources */,
 				DD46ABC922351810009DD24A /* L07ConcentrationThemeChooserViewController.swift in Sources */,
 				DD726747223D37F8008D12D1 /* L13Utility.swift in Sources */,
 				DD2AAEF1223235880031ED8B /* L06PlayingCard.swift in Sources */,
 				DD64025022375B4B0031E20C /* Lecture09ConcentrationThemeChooserViewController.swift in Sources */,
 				DD5D64FB223641020018EEBD /* Lecture10DemoURLs.swift in Sources */,
-				DD78DDBE22290EA1008436C3 /* Lecture03Concentration.swift in Sources */,
+				DD78DDBE22290EA1008436C3 /* L03Concentration.swift in Sources */,
 				DD64025422375B720031E20C /* Lecture09Concentration.swift in Sources */,
 				DD46ABC522351250009DD24A /* L07Concentration.swift in Sources */,
 				DD5D64EA2235EC230018EEBD /* Lecture09VCLViewController.swift in Sources */,
@@ -722,34 +720,35 @@
 				DD72673F223D3589008D12D1 /* L13TextFieldCollectionViewCell.swift in Sources */,
 				DD5D64F922363FF00018EEBD /* Lecture10CassiniViewController.swift in Sources */,
 				DD8C509C2237579400F1B56B /* L10ConcentrationViewController.swift in Sources */,
-				DD46ABD2223577F3009DD24A /* Lecture08PlayingCard.swift in Sources */,
+				DD46ABD2223577F3009DD24A /* L08PlayingCard.swift in Sources */,
 				DD2AAEED223235680031ED8B /* L06ViewController.swift in Sources */,
 				DD46ABC7223512A0009DD24A /* L07Card.swift in Sources */,
 				DD72673A223D2CFE008D12D1 /* L12EmojiArtView+Gestures.swift in Sources */,
 				DD5FD252223DEC1C002325E4 /* L14EmojiArtView+Gestures.swift in Sources */,
+				DD791E4A224931D100C0A160 /* L16DocumentInfoViewController.swift in Sources */,
 				DD72674B223D37F8008D12D1 /* L13EmojiArtViewController.swift in Sources */,
 				DD726749223D37F8008D12D1 /* L13EmojiArtView.swift in Sources */,
 				DD53766C223A8C2800BEF14B /* L11EmojiArtDocumentTableViewController.swift in Sources */,
 				DD640263223787A50031E20C /* L11EmojiArtView.swift in Sources */,
-				DDCE89A4223A9A4A000017DE /* Lecture12Utility.swift in Sources */,
+				DDCE89A4223A9A4A000017DE /* L12Utility.swift in Sources */,
 				DD726746223D37F8008D12D1 /* L13EmojiCollectionViewCell.swift in Sources */,
 				DD6402612237866C0031E20C /* L11EmojiArtViewController.swift in Sources */,
-				DD2A2A4D2228267200EB5522 /* Assignment01Card.swift in Sources */,
-				DD2A2A442227C62A00EB5522 /* Lecture02Card.swift in Sources */,
+				DD2A2A4D2228267200EB5522 /* A01Card.swift in Sources */,
+				DD2A2A442227C62A00EB5522 /* L02Card.swift in Sources */,
 				DD72674A223D37F8008D12D1 /* L13EmojiArtDocumentTableViewController.swift in Sources */,
 				DD24C4FA2247638400F34F77 /* L14DocumentBrowserViewController.swift in Sources */,
-				DD773B3322267E4A00B86763 /* AppDelegate.swift in Sources */,
+				DD773B3322267E4A00B86763 /* L14AppDelegate.swift in Sources */,
 				DD2AAEEF2232357C0031ED8B /* L06PlayingCardDeck.swift in Sources */,
-				DDFA05772238E43100D979B5 /* Lecture08CardBehavior.swift in Sources */,
-				DD78DDBA22290E81008436C3 /* Lecture03ViewController.swift in Sources */,
+				DDFA05772238E43100D979B5 /* L08CardBehavior.swift in Sources */,
+				DD78DDBA22290E81008436C3 /* L03ViewController.swift in Sources */,
 				DD64025622375B7D0031E20C /* Lecture09Card.swift in Sources */,
 				DD78DDCC22292E15008436C3 /* L04Concentration.swift in Sources */,
 				DD2AAEF3223235CA0031ED8B /* L06PlayingCardView.swift in Sources */,
 				DD5D64EC2235F16A0018EEBD /* Lecture09ImageViewController.swift in Sources */,
-				DD2A2A4F2228268200EB5522 /* Assignment01Concentration.swift in Sources */,
+				DD2A2A4F2228268200EB5522 /* A01Concentration.swift in Sources */,
 				DD5D64F42235F9D10018EEBD /* Lecture09DemoURL.swift in Sources */,
-				DD2A2A402227C54E00EB5522 /* Lecture02ViewController.swift in Sources */,
-				DD78DDBC22290E8D008436C3 /* Lecture03Card.swift in Sources */,
+				DD2A2A402227C54E00EB5522 /* L02ViewController.swift in Sources */,
+				DD78DDBC22290E8D008436C3 /* L03Card.swift in Sources */,
 				DDCE89A9223A9CEF000017DE /* L12EmojiArtView.swift in Sources */,
 				DD24C4FC2247639E00F34F77 /* L14EmojiArtDocument.swift in Sources */,
 				DD5FD250223DEC1B002325E4 /* L14EmojiArtViewController.swift in Sources */,
@@ -760,13 +759,12 @@
 				DD2A461922311493007833E9 /* L05PlayingCardDeck.swift in Sources */,
 				DD2A461722311150007833E9 /* L05PlayingCard.swift in Sources */,
 				DD726748223D37F8008D12D1 /* L13EmojiArtView+Gestures.swift in Sources */,
-				DD2A2A422227C58200EB5522 /* Lecture02Concentration.swift in Sources */,
+				DD2A2A422227C58200EB5522 /* L02Concentration.swift in Sources */,
 				DD5FD259223DF7D6002325E4 /* L14EmojiArt.swift in Sources */,
 				DD5FD256223DEC1C002325E4 /* L14EmojiArtView.swift in Sources */,
-				DD773B47222680C100B86763 /* Lecture17ViewController.swift in Sources */,
-				DD46ABD0223577CD009DD24A /* Lecture08PlayingCardView.swift in Sources */,
-				DD46ABD422357805009DD24A /* Lecture08PlayingCardDeck.swift in Sources */,
-				DD773B502226994200B86763 /* Lecture01ViewController.swift in Sources */,
+				DD46ABD0223577CD009DD24A /* L08PlayingCardView.swift in Sources */,
+				DD46ABD422357805009DD24A /* L08PlayingCardDeck.swift in Sources */,
+				DD773B502226994200B86763 /* L01ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

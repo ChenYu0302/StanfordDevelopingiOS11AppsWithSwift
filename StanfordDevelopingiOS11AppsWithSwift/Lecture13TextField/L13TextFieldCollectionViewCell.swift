@@ -13,6 +13,9 @@ class L13TextFieldCollectionViewCell: UICollectionViewCell, UITextFieldDelegate 
     @IBOutlet weak var textField: UITextField! {
         didSet {
             textField.delegate = self
+            // 这部分在 Demo 里没展示
+            textField.inputAssistantItem.leadingBarButtonGroups = []
+            textField.inputAssistantItem.trailingBarButtonGroups = []
         }
     }
     

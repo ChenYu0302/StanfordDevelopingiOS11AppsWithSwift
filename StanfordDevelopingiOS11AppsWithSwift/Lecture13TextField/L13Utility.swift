@@ -75,124 +75,136 @@ class L13ImageFetcher
     }
 }
 
+// MARK: - Lecture10 Extenstion
+//
+//extension UIViewController {
+//    var contents: UIViewController {
+//        if let navcon = self as? UINavigationController {
+//            return navcon.visibleViewController ?? navcon
+//        } else {
+//            return self
+//        }
+//    }
+//}
+
 
 // MARK: - Lecture11 Extenstion
-/*
-extension URL {
-    var imageURL: URL {
-        if let url = UIImage.urlToStoreLocallyAsJPEG(named: self.path) {
-            // this was created using UIImage.storeLocallyAsJPEG
-            return url
-        } else {
-            // check to see if there is an embedded imgurl reference
-            for query in query?.components(separatedBy: "&") ?? [] {
-                let queryComponents = query.components(separatedBy: "=")
-                if queryComponents.count == 2 {
-                    if queryComponents[0] == "imgurl", let url = URL(string: queryComponents[1].removingPercentEncoding ?? "") {
-                        return url
-                    }
-                }
-            }
-            return self.baseURL ?? self
-        }
-    }
-}
+//
+//extension URL {
+//    var imageURL: URL {
+//        if let url = UIImage.urlToStoreLocallyAsJPEG(named: self.path) {
+//            // this was created using UIImage.storeLocallyAsJPEG
+//            return url
+//        } else {
+//            // check to see if there is an embedded imgurl reference
+//            for query in query?.components(separatedBy: "&") ?? [] {
+//                let queryComponents = query.components(separatedBy: "=")
+//                if queryComponents.count == 2 {
+//                    if queryComponents[0] == "imgurl", let url = URL(string: queryComponents[1].removingPercentEncoding ?? "") {
+//                        return url
+//                    }
+//                }
+//            }
+//            return self.baseURL ?? self
+//        }
+//    }
+//}
+//
+//extension UIImage
+//{
+//    private static let localImagesDirectory = "UIImage.storeLocallyAsJPEG"
+//
+//    static func urlToStoreLocallyAsJPEG(named: String) -> URL? {
+//        var name = named
+//        let pathComponents = named.components(separatedBy: "/")
+//        if pathComponents.count > 1 {
+//            if pathComponents[pathComponents.count-2] == localImagesDirectory {
+//                name = pathComponents.last!
+//            } else {
+//                return nil
+//            }
+//        }
+//        if var url = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first {
+//            url = url.appendingPathComponent(localImagesDirectory)
+//            do {
+//                try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+//                url = url.appendingPathComponent(name)
+//                if url.pathExtension != "jpg" {
+//                    url = url.appendingPathExtension("jpg")
+//                }
+//                return url
+//            } catch let error {
+//                print("UIImage.urlToStoreLocallyAsJPEG \(error)")
+//            }
+//        }
+//        return nil
+//    }
+//
+//    func storeLocallyAsJPEG(named name: String) -> URL? {
+//        if let imageData = self.jpegData(compressionQuality: 1.0) {
+//            if let url = UIImage.urlToStoreLocallyAsJPEG(named: name) {
+//                do {
+//                    try imageData.write(to: url)
+//                    return url
+//                } catch let error {
+//                    print("UIImage.storeLocallyAsJPEG \(error)")
+//                }
+//            }
+//        }
+//        return nil
+//    }
+//}
+//
+//
+//extension String {
+//    func madeUnique(withRespectTo otherStrings: [String]) -> String {
+//        var possiblyUnique = self
+//        var uniqueNumber = 1
+//        while otherStrings.contains(possiblyUnique) {
+//            possiblyUnique = self + " \(uniqueNumber)"
+//            uniqueNumber += 1
+//        }
+//        return possiblyUnique
+//    }
+//}
 
-extension UIImage
-{
-    private static let localImagesDirectory = "UIImage.storeLocallyAsJPEG"
-    
-    static func urlToStoreLocallyAsJPEG(named: String) -> URL? {
-        var name = named
-        let pathComponents = named.components(separatedBy: "/")
-        if pathComponents.count > 1 {
-            if pathComponents[pathComponents.count-2] == localImagesDirectory {
-                name = pathComponents.last!
-            } else {
-                return nil
-            }
-        }
-        if var url = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first {
-            url = url.appendingPathComponent(localImagesDirectory)
-            do {
-                try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
-                url = url.appendingPathComponent(name)
-                if url.pathExtension != "jpg" {
-                    url = url.appendingPathExtension("jpg")
-                }
-                return url
-            } catch let error {
-                print("UIImage.urlToStoreLocallyAsJPEG \(error)")
-            }
-        }
-        return nil
-    }
-    
-    func storeLocallyAsJPEG(named name: String) -> URL? {
-        if let imageData = self.jpegData(compressionQuality: 1.0) {
-            if let url = UIImage.urlToStoreLocallyAsJPEG(named: name) {
-                do {
-                    try imageData.write(to: url)
-                    return url
-                } catch let error {
-                    print("UIImage.storeLocallyAsJPEG \(error)")
-                }
-            }
-        }
-        return nil
-    }
-}
-
-extension String {
-    func madeUnique(withRespectTo otherStrings: [String]) -> String {
-        var possiblyUnique = self
-        var uniqueNumber = 1
-        while otherStrings.contains(possiblyUnique) {
-            possiblyUnique = self + " \(uniqueNumber)"
-            uniqueNumber += 1
-        }
-        return possiblyUnique
-    }
-}
-*/
 
 // MARK: - Lecture12 Extenstion
-/*
-extension NSAttributedString {
-    func withFontScaled(by factor: CGFloat) -> NSAttributedString {
-        let mutable = NSMutableAttributedString(attributedString: self)
-        mutable.setFont(mutable.font?.scaled(by: factor))
-        return mutable
-    }
-    var font: UIFont? {
-        get { return attribute(.font, at: 0, effectiveRange: nil) as? UIFont }
-    }
-}
-
-extension NSMutableAttributedString {
-    func setFont(_ newValue: UIFont?) {
-        if newValue != nil { addAttributes([.font:newValue!], range: NSMakeRange(0, length)) }
-    }
-}
-
-extension UIFont {
-    func scaled(by factor: CGFloat) -> UIFont { return withSize(pointSize * factor) }
-}
-
-extension UILabel {
-    func stretchToFit() {
-        let oldCenter = center
-        sizeToFit()
-        center = oldCenter
-    }
-}
-
-extension CGPoint {
-    func offset(by delta: CGPoint) -> CGPoint {
-        return CGPoint(x: x + delta.x, y: y + delta.y)
-    }
-}
-*/
+//
+//extension NSAttributedString {
+//    func withFontScaled(by factor: CGFloat) -> NSAttributedString {
+//        let mutable = NSMutableAttributedString(attributedString: self)
+//        mutable.setFont(mutable.font?.scaled(by: factor))
+//        return mutable
+//    }
+//    var font: UIFont? {
+//        get { return attribute(.font, at: 0, effectiveRange: nil) as? UIFont }
+//    }
+//}
+//
+//extension NSMutableAttributedString {
+//    func setFont(_ newValue: UIFont?) {
+//        if newValue != nil { addAttributes([.font:newValue!], range: NSMakeRange(0, length)) }
+//    }
+//}
+//
+//extension UIFont {
+//    func scaled(by factor: CGFloat) -> UIFont { return withSize(pointSize * factor) }
+//}
+//
+//extension UILabel {
+//    func stretchToFit() {
+//        let oldCenter = center
+//        sizeToFit()
+//        center = oldCenter
+//    }
+//}
+//
+//extension CGPoint {
+//    func offset(by delta: CGPoint) -> CGPoint {
+//        return CGPoint(x: x + delta.x, y: y + delta.y)
+//    }
+//}
 
 // MARK: - Lecture13 Extenstion
 
@@ -204,30 +216,16 @@ extension Array where Element: Equatable {
     }
 }
 
-
 // MARK: - Lecture14 Extenstion
-/*
-extension String {
-    func attributedString(withTextStyle style: UIFontTextStyle, ofSize size: CGFloat) -> NSAttributedString {
-        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
-        return NSAttributedString(string: self, attributes: [.font:font])
-    }
-}
-*/
-
-
-//extension UIViewController {
-//    var contents: UIViewController {
-//        if let navcon = self as? UINavigationController {
-//            return navcon.visibleViewController ?? navcon
-//        } else {
-//            return self
-//        }
+//extension String {
+//    func attributedString(withTextStyle style: UIFont.TextStyle, ofSize size: CGFloat) -> NSAttributedString {
+//        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont.preferredFont(forTextStyle: .body).withSize(size))
+//        return NSAttributedString(string: self, attributes: [.font:font])
 //    }
 //}
 //
 //extension UIView {
-//    var snapshot: UIImage? {
+//    var snapshot: UIImage? { // 视图的截图
 //        UIGraphicsBeginImageContext(bounds.size)
 //        drawHierarchy(in: bounds, afterScreenUpdates: true)
 //        let image = UIGraphicsGetImageFromCurrentImageContext()
@@ -235,4 +233,3 @@ extension String {
 //        return image
 //    }
 //}
-

@@ -13,7 +13,7 @@ class L10ConcentrationViewController: UIViewController {
     private lazy var game = L10Concentration(numberOfPairsOfCards: numberOfPairsOfCards)
     
     var numberOfPairsOfCards:Int {
-        return (cardButtons.count + 1) / 2
+        return (visibleCardButtons.count + 1) / 2
     }
     
     private(set) var flipCount = 0 {
@@ -27,8 +27,16 @@ class L10ConcentrationViewController: UIViewController {
             NSAttributedString.Key.strokeWidth : 5.0,
             NSAttributedString.Key.strokeColor : #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         ]
-        let attributedString = NSAttributedString(string: "Flips: \(flipCount)", attributes: attributes)
+        let attributedString = NSAttributedString(
+            string: traitCollection.verticalSizeClass == .compact ? "Flips\n\(flipCount)" : "Flips: \(flipCount)",
+            attributes: attributes
+        )
         self.flipCountLabel.attributedText = attributedString
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        updateViewFromModel()
     }
     
     @IBOutlet private weak var flipCountLabel: UILabel!{
@@ -39,25 +47,34 @@ class L10ConcentrationViewController: UIViewController {
     
     @IBOutlet private var cardButtons: [UIButton]!
     
+    private var visibleCardButtons: [UIButton]! {
+        return cardButtons?.filter { !$0.superview!.isHidden }
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        updateViewFromModel()
+    }
+    
     @IBAction private func touchCard(_ sender: UIButton) {
         
         self.flipCount += 1
         
-        if let cardNumber = cardButtons.firstIndex(of: sender)
+        if let cardNumber = visibleCardButtons.firstIndex(of: sender)
         {
             print("chosen card number = \(cardNumber) ")
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
         }else{
-            print("chosen card was not in cardButtons")
+            print("chosen card was not in visibleCardButtons")
         }
     }
     
     
     private func updateViewFromModel() {
-        if cardButtons != nil {
-            for index in cardButtons.indices {
-                let button = cardButtons[index]
+        if visibleCardButtons != nil {
+            for index in visibleCardButtons.indices {
+                let button = visibleCardButtons[index]
                 let card = game.cards[index]
                 if card.isFaceUp {
                     button.setTitle(emoji(for: card), for:.normal)
